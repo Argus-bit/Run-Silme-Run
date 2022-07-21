@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8428945751760160042}
   - component: {fileID: 8428945751760160043}
   m_Layer: 0
-  m_Name: Poring
+  m_Name: Slime
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
