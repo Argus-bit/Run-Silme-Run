@@ -14,9 +14,9 @@ public class Plataform : MonoBehaviour
     private void Update()
     {
         timeCount += Time.deltaTime;
-        if (timeCount >= 10)
+        if (timeCount >= 20)
         {
-            speed += 0.02f;
+            speed += 0.015f;
             timeCount = 0;
         }
     }

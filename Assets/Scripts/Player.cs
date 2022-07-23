@@ -6,17 +6,18 @@ public class Player : MonoBehaviour
 {
 	public Vector2 dir;
 	public float speed = 3f;
-	//public float jumpForce = 800f;
 	public bool facingRight = true;
 	public float movX;
-	private Rigidbody2D rb;
+	private Rigidbody2D myRigidbody;
 	private Transform _transform;
 	public GameObject _gameObject;
+    public Vector2 friction = new Vector2(.1f, 0);
     /*private bool jumping;*/
+    //public float jumpForce = 800f;
 
-	void Start()
+    void Start()
 	{
-		rb = GetComponent<Rigidbody2D>();
+        myRigidbody = GetComponent<Rigidbody2D>();
 		_transform = GetComponent<Transform>();
 	}
     public void OnDestroy()
@@ -32,14 +33,25 @@ public class Player : MonoBehaviour
     {
         movX = Input.GetAxis("Horizontal");
         if (movX > 0 && !facingRight)
-        { Flip();
-        Destroy(_gameObject);
+        { 
+            Flip();
+            Destroy(_gameObject);
         }
         else if (movX < 0 && facingRight)
-        { Flip();
-        Destroy(_gameObject);
+        { 
+            Flip();
+            Destroy(_gameObject);
         }
-        rb.velocity = new Vector2(movX * speed, rb.velocity.y);
+        myRigidbody.velocity = new Vector2(movX * speed, myRigidbody.velocity.y);
+
+        if (myRigidbody.velocity.x > 0)
+        {
+            myRigidbody.velocity += friction;
+        }
+        else if (myRigidbody.velocity.x < 0)
+        {
+            myRigidbody.velocity -= friction;
+        }
     }
     void Flip()
     {
