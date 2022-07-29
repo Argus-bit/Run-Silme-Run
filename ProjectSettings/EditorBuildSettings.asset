@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/StreamingAssets/Game.unity
     guid: 3fc8acdd13e6c734bafef6554d6fdbcd
   - enabled: 1
-    path: Assets/StreamingAssets/Tela de Menu.unity
+    path: Assets/StreamingAssets/Menu.unity
     guid: f3de7ae6ed396434d980997333657486
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 22ac6ab07b60f3e4caf6498036734c30, type: 2}
