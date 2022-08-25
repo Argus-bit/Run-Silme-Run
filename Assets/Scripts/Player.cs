@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-	public Vector2 dir;
+    public VariableJoystick joystick;
 	public float speed = 3f;
 	public bool facingRight = true;
 	public float movX;
@@ -12,8 +12,6 @@ public class Player : MonoBehaviour
 	private Transform _transform;
 	public GameObject _gameObject;
     public Vector2 friction = new Vector2(.1f, 0);
-    /*private bool jumping;*/
-    //public float jumpForce = 800f;
 
     void Start()
 	{
@@ -23,15 +21,18 @@ public class Player : MonoBehaviour
     public void OnDestroy()
     {
         Destroy(gameObject);
+        Score.stopTime = true;
     }
     void FixedUpdate()
     {
-        Move();
-        /*Jump();*/
+        AspectMove();
     }
-    void Move()
+    void AspectMove()
     {
-        movX = Input.GetAxis("Horizontal");
+         movX = joystick.Horizontal;
+         myRigidbody.velocity = new Vector2(movX * speed, myRigidbody.velocity.y);
+
+        // CHAMADA DA FUNÇÃO Flip(); QUE GERA O FLIP DA IMAGEM DO PERSONAGEM, O FAZENDO VIRAR O ROSTO
         if (movX > 0 && !facingRight)
         { 
             Flip();
@@ -42,8 +43,8 @@ public class Player : MonoBehaviour
             Flip();
             Destroy(_gameObject);
         }
-        myRigidbody.velocity = new Vector2(movX * speed, myRigidbody.velocity.y);
 
+        //FUNÇÃO QUE RETIRA O ATRITO DO PERSONAGEM COM AS PLATAFORMAS
         if (myRigidbody.velocity.x > 0)
         {
             myRigidbody.velocity += friction;
@@ -53,6 +54,8 @@ public class Player : MonoBehaviour
             myRigidbody.velocity -= friction;
         }
     }
+
+    // FUNÇÃO QUE GERA O FLIP DA IMAGEM DO PERSONAGEM, O FAZENDO VIRAR O ROSTO
     void Flip()
     {
         facingRight = !facingRight;
@@ -60,13 +63,4 @@ public class Player : MonoBehaviour
         scale.x *= -1;
         transform.localScale = scale;
     }
-    /* void Jump()
-    {
-        var AbsVelY = Mathf.Abs(rb.velocity.y);
-        jumping = AbsVelY >= 0.5;
-        if (Input.GetKeyDown("up") && !jumping)
-        {
-            rb.AddForce(new Vector2(rb.velocity.x, jumpForce));
-        }
-    }*/
 }

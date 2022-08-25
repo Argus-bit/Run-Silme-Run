@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2848031709495525494}
   - component: {fileID: 8399744435503777612}
   - component: {fileID: 7096383491284948807}
+  - component: {fileID: -3848649388889319428}
   m_Layer: 0
   m_Name: Plataform
   m_TagString: Untagged
@@ -148,7 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e70fd4b32bd77794d9f0639ce311b883, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToReset: 3
+  timeToReset: 4
   rig: {fileID: 7719673732626528680}
   speed: 0.07
 --- !u!114 &7096383491284948807
@@ -171,6 +172,17 @@ MonoBehaviour:
   spawTime: 5
   spawDelay: 60
   powerUpPoint: {fileID: 3091527476567667235}
+--- !u!210 &-3848649388889319428
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4753174064139017105}
+  m_Enabled: 1
+  m_SortingLayerID: 416356627
+  m_SortingLayer: 1
+  m_SortingOrder: 1
 --- !u!1001 &2745181365680804541
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -181,6 +193,10 @@ PrefabInstance:
     - target: {fileID: 221672195523424300, guid: a5773fedec464d5439ccfa1c2e946883, type: 3}
       propertyPath: m_Name
       value: PowerUpPoint
+      objectReference: {fileID: 0}
+    - target: {fileID: 221672195523424300, guid: a5773fedec464d5439ccfa1c2e946883, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 936634598488662174, guid: a5773fedec464d5439ccfa1c2e946883, type: 3}
       propertyPath: m_RootOrder

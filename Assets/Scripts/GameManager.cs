@@ -10,6 +10,10 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(cena);
     }
+    public void ExitGame()
+    {
+       Application.Quit();
+    }
     //Método para carregar nova cena.
 
 }

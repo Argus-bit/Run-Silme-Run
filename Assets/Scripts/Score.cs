@@ -5,21 +5,40 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
 
-public class Score : GameEvent
+public class Score : MonoBehaviour
 {
     public TextMeshProUGUI scoreText;
-    private float score;
-    public void Update()
+    public TextMeshProUGUI resultScore;
+    public TextMeshProUGUI highScore;
+    public SOMyScore score;
+    public static bool stopTime;
+    void Start()
     {
 
-        AddScore();
+        stopTime = false;
+        Reset();
+    }
+    private void Reset()
+    {
+        score.myScore = 0f;
     }
 
-    public void AddScore()
+    void Update()
     {
-        if (stopTime == true)
-        { score += Time.deltaTime;
-          scoreText.text = score.ToString("0");
+        if(stopTime == false)
+        {
+            score.myScore += Time.deltaTime;
+            scoreText.text = score.myScore.ToString("0");
+        }
+        else
+        { 
+            resultScore.text = score.myScore.ToString("0");
+            highScore.text = PlayerPrefs.GetFloat("HighScore", 0f).ToString("0");
+            if(score.myScore > PlayerPrefs.GetFloat("HighScore", 0f))
+            {
+                PlayerPrefs.SetFloat("HighScore", score.myScore);
+                highScore.text = score.myScore.ToString("0");
+            }
         }
     }
 }
