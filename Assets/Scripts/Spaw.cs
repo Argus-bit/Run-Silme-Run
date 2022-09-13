@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Spaw : MonoBehaviour
 {
-    public GameObject Prefabplataform;
     public float spawTime;
     private float timeCount;
     public PoolManager poolManager;

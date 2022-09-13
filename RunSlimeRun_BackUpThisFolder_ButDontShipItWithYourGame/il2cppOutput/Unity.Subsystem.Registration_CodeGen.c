@@ -13,18 +13,18 @@
 
 
 // 0x00000001 System.Boolean UnityEngine.SubsystemRegistration::CreateDescriptor(UnityEngine.SubsystemDescriptor)
-extern void SubsystemRegistration_CreateDescriptor_mCE7479B03E9146CB8F255997DED1572635CD9541 (void);
+extern void SubsystemRegistration_CreateDescriptor_mAE58037D16DF7872D67970956CB34FDBB193A62E (void);
 // 0x00000002 System.Void UnityEngine.SubsystemRegistration::.cctor()
-extern void SubsystemRegistration__cctor_mC5D4EC434D2A9968CC0A81209F67F3C9E3B8326D (void);
+extern void SubsystemRegistration__cctor_mC8370247942DDCD5D5828023D83D21B8BD555260 (void);
 static Il2CppMethodPointer s_methodPointers[2] = 
 {
-	SubsystemRegistration_CreateDescriptor_mCE7479B03E9146CB8F255997DED1572635CD9541,
-	SubsystemRegistration__cctor_mC5D4EC434D2A9968CC0A81209F67F3C9E3B8326D,
+	SubsystemRegistration_CreateDescriptor_mAE58037D16DF7872D67970956CB34FDBB193A62E,
+	SubsystemRegistration__cctor_mC8370247942DDCD5D5828023D83D21B8BD555260,
 };
 static const int32_t s_InvokerIndices[2] = 
 {
-	5792,
-	6199,
+	5795,
+	6202,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_Subsystem_Registration_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_Subsystem_Registration_CodeGenModule = 

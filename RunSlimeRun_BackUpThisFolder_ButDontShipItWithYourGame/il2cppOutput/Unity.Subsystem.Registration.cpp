@@ -313,14 +313,14 @@ inline SubsystemDescriptor_tF417D2751C69A8B0DD86162EBCE55F84D3493A71* Enumerator
 // System.Type UnityEngine.SubsystemDescriptor::get_subsystemImplementationType()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Type_t* SubsystemDescriptor_get_subsystemImplementationType_m68EB84474574555DDE319A8D5C6C06C5924FFA45_inline (SubsystemDescriptor_tF417D2751C69A8B0DD86162EBCE55F84D3493A71* __this, const RuntimeMethod* method) ;
 // System.Boolean System.Type::op_Equality(System.Type,System.Type)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Type_op_Equality_mE6EDDDC900C50B222CF32BCD2AD027595F2D74B7 (Type_t* ___left0, Type_t* ___right1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC (Type_t* ___left0, Type_t* ___right1, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.List`1/Enumerator<UnityEngine.SubsystemDescriptor>::MoveNext()
 inline bool Enumerator_MoveNext_mF957FE1F33D5E0DC55F8336C509F237F76A391A7 (Enumerator_t79F9FDCD08D39A2A163DB9C8FEBE17D925A14822* __this, const RuntimeMethod* method)
 {
 	return ((  bool (*) (Enumerator_t79F9FDCD08D39A2A163DB9C8FEBE17D925A14822*, const RuntimeMethod*))Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared)(__this, method);
 }
 // System.Void UnityEngine.Internal_SubsystemDescriptors::Internal_AddDescriptor(UnityEngine.SubsystemDescriptor)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Internal_SubsystemDescriptors_Internal_AddDescriptor_m99EBEE69393C7750E62FAF53BAB050D553BFF5AD (SubsystemDescriptor_tF417D2751C69A8B0DD86162EBCE55F84D3493A71* ___descriptor0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Internal_SubsystemDescriptors_Internal_AddDescriptor_m0462E74DADC94897AB6EECD3051878FD6832118E (SubsystemDescriptor_tF417D2751C69A8B0DD86162EBCE55F84D3493A71* ___descriptor0, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<UnityEngine.SubsystemDescriptor>::Add(T)
 inline void List_1_Add_m6225DC8FE1ED990ECCCE059CF9B5301E766D0ED9_inline (List_1_t15AD773D34D3739AFB67421B6DFFACEA7638F64E* __this, SubsystemDescriptor_tF417D2751C69A8B0DD86162EBCE55F84D3493A71* ___item0, const RuntimeMethod* method)
 {
@@ -345,7 +345,7 @@ inline void List_1__ctor_mA786A401DCD46DAD7257EF6A3E5E9EF105C4C1ED (List_1_t15AD
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Boolean UnityEngine.SubsystemRegistration::CreateDescriptor(UnityEngine.SubsystemDescriptor)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SubsystemRegistration_CreateDescriptor_mCE7479B03E9146CB8F255997DED1572635CD9541 (SubsystemDescriptor_tF417D2751C69A8B0DD86162EBCE55F84D3493A71* ___descriptor0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SubsystemRegistration_CreateDescriptor_mAE58037D16DF7872D67970956CB34FDBB193A62E (SubsystemDescriptor_tF417D2751C69A8B0DD86162EBCE55F84D3493A71* ___descriptor0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -405,7 +405,7 @@ IL_000d_1:
 				L_6 = SubsystemDescriptor_get_subsystemImplementationType_m68EB84474574555DDE319A8D5C6C06C5924FFA45_inline(L_5, NULL);
 				il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 				bool L_7;
-				L_7 = Type_op_Equality_mE6EDDDC900C50B222CF32BCD2AD027595F2D74B7(L_4, L_6, NULL);
+				L_7 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_4, L_6, NULL);
 				if (!L_7)
 				{
 					goto IL_002c_1;
@@ -441,7 +441,7 @@ IL_0045:
 	{
 		// Internal_SubsystemDescriptors.Internal_AddDescriptor(descriptor);
 		SubsystemDescriptor_tF417D2751C69A8B0DD86162EBCE55F84D3493A71* L_9 = ___descriptor0;
-		Internal_SubsystemDescriptors_Internal_AddDescriptor_m99EBEE69393C7750E62FAF53BAB050D553BFF5AD(L_9, NULL);
+		Internal_SubsystemDescriptors_Internal_AddDescriptor_m0462E74DADC94897AB6EECD3051878FD6832118E(L_9, NULL);
 		// k_SubsystemDescriptors.Add(descriptor);
 		il2cpp_codegen_runtime_class_init_inline(SubsystemRegistration_tBF4BF08A2270D9934F883D9B799E8A033BC28F21_il2cpp_TypeInfo_var);
 		List_1_t15AD773D34D3739AFB67421B6DFFACEA7638F64E* L_10 = ((SubsystemRegistration_tBF4BF08A2270D9934F883D9B799E8A033BC28F21_StaticFields*)il2cpp_codegen_static_fields_for(SubsystemRegistration_tBF4BF08A2270D9934F883D9B799E8A033BC28F21_il2cpp_TypeInfo_var))->___k_SubsystemDescriptors_0;
@@ -460,7 +460,7 @@ IL_0058:
 	}
 }
 // System.Void UnityEngine.SubsystemRegistration::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubsystemRegistration__cctor_mC5D4EC434D2A9968CC0A81209F67F3C9E3B8326D (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubsystemRegistration__cctor_mC8370247942DDCD5D5828023D83D21B8BD555260 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)

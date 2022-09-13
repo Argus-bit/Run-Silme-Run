@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Music
   layers:
   - Default
   - TransparentFX
@@ -43,4 +44,7 @@ TagManager:
     locked: 0
   - name: New Layer 1
     uniqueID: 416356627
+    locked: 0
+  - name: New Layer 2
+    uniqueID: 2086978229
     locked: 0

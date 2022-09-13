@@ -1017,7 +1017,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* ValueExpression_ge
 // System.Text.StringBuilder System.Text.StringBuilder::Append(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t* StringBuilder_Append_m3A7D629DAA5E0E36B8A617A911E34F79AF84AE63 (StringBuilder_t* __this, RuntimeObject* ___value0, const RuntimeMethod* method) ;
 // System.Decimal System.Decimal::Parse(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F Decimal_Parse_m5EB981A9432517BD05A49A0351F4DEAD0712F4B1 (String_t* ___s0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F Decimal_Parse_mF59EB26DED52ED2D5E804452CFC9102E3347C10D (String_t* ___s0, const RuntimeMethod* method) ;
 // System.String System.Decimal::ToString(System.IFormatProvider)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Decimal_ToString_m08256316312F5D05FE3D099C083A99BC694F4762 (Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F* __this, RuntimeObject* ___provider0, const RuntimeMethod* method) ;
 // Unity.VisualScripting.Dependencies.NCalc.IdentifierExpression Unity.VisualScripting.Dependencies.NCalc.FunctionExpression::get_Identifier()
@@ -1051,9 +1051,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ValueExpression_set_Type_mDE
 // System.Type System.Object::GetType()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.TypeCode System.Type::GetTypeCode(System.Type)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Type_GetTypeCode_m98820B2A4DCAA218E805D4773E2D0A33AFDF7192 (Type_t* ___type0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Type_GetTypeCode_m2CE476933AF4B381D7A52F4343B70E9878FDF466 (Type_t* ___type0, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method) ;
 // System.Void Unity.VisualScripting.Dependencies.NCalc.EvaluationException::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EvaluationException__ctor_mC3545B04D76AEAFC2007507CC0D00D12D4CC6BFE (EvaluationException_t0C3906BE18D421772799C4E0ACFE5478571FEA4E* __this, String_t* ___message0, const RuntimeMethod* method) ;
 // System.Char System.String::get_Chars(System.Int32)
@@ -2543,7 +2543,7 @@ IL_0070:
 		L_18 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_17);
 		il2cpp_codegen_runtime_class_init_inline(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var);
 		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_19;
-		L_19 = Decimal_Parse_m5EB981A9432517BD05A49A0351F4DEAD0712F4B1(L_18, NULL);
+		L_19 = Decimal_Parse_mF59EB26DED52ED2D5E804452CFC9102E3347C10D(L_18, NULL);
 		V_1 = L_19;
 		NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* L_20 = __this->____numberFormatInfo_0;
 		String_t* L_21;
@@ -3092,7 +3092,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueExpression__ctor_mACD41125FFF375D20
 		L_1 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		int32_t L_2;
-		L_2 = Type_GetTypeCode_m98820B2A4DCAA218E805D4773E2D0A33AFDF7192(L_1, NULL);
+		L_2 = Type_GetTypeCode_m2CE476933AF4B381D7A52F4343B70E9878FDF466(L_1, NULL);
 		V_0 = L_2;
 		int32_t L_3 = V_0;
 		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_3, 3)))
@@ -3237,7 +3237,7 @@ IL_0094:
 IL_009a:
 	{
 		String_t* L_7;
-		L_7 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(G_B10_1, G_B10_0, NULL);
+		L_7 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B10_1, G_B10_0, NULL);
 		EvaluationException_t0C3906BE18D421772799C4E0ACFE5478571FEA4E* L_8 = (EvaluationException_t0C3906BE18D421772799C4E0ACFE5478571FEA4E*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&EvaluationException_t0C3906BE18D421772799C4E0ACFE5478571FEA4E_il2cpp_TypeInfo_var)));
 		NullCheck(L_8);
 		EvaluationException__ctor_mC3545B04D76AEAFC2007507CC0D00D12D4CC6BFE(L_8, L_7, NULL);
@@ -3420,7 +3420,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueExpression_Accept_mE406F7BBE8CCC32F
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.UInt32 <PrivateImplementationDetails>::ComputeStringHash(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t U3CPrivateImplementationDetailsU3E_ComputeStringHash_m46307EA95C139B0817F589725E1F0DCE0AFD4058 (String_t* ___s0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t U3CPrivateImplementationDetailsU3E_ComputeStringHash_mCD31B865A41BB2F8FD3279C909302AD1BB45C92F (String_t* ___s0, const RuntimeMethod* method) 
 {
 	uint32_t V_0 = 0;
 	int32_t V_1 = 0;
