@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6999536735593034241}
+  - component: {fileID: 6999536735593034242}
   - component: {fileID: 6999536735593034243}
-  - component: {fileID: 6104950572862984888}
   m_Layer: 0
   m_Name: SpawPlataform
   m_TagString: Untagged
@@ -33,6 +33,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6999536735593034242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6999536735593034240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4e3fede3419dd14daa61c442c6fb049, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isRight: 1
+  speed: 1
+  Wallr: 2
+  Walll: -2
 --- !u!114 &6999536735593034243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45,22 +61,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7e3a442cd7c3aa4fabb007d5a6393b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Prefabplataform: {fileID: 4100351602745769921, guid: 71dc8710a7dc37945a720f6f91ecce39, type: 3}
   spawTime: 1
-  poolManager: {fileID: 544022173382860835, guid: 689b2e7c883b73f44ba618d8962743c4, type: 3}
+  poolManager: {fileID: 0}
   spawPointOne: {fileID: 6999536735593034241}
---- !u!114 &6104950572862984888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6999536735593034240}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09232e3ae0633a446a635ea890540c11, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRight: 0
-  speed: 1.7
-  Wallr: 2.5
-  Walll: -2.5

@@ -714,6 +714,8 @@ struct Func_2_tAF4123F8D69F1A665BBB864E1C97131C05AEBBEB;
 struct Func_2_tC5B959A6DD6FDE84607DD9ECC529B9BE485C63C5;
 // System.Func`2<System.Object,System.Object>
 struct Func_2_tACBF5A1656250800CE861707354491F0611F6624;
+// System.Func`2<UnityEngine.UIElements.StyleSelectorPart,UnityEngine.Vector2>
+struct Func_2_tE58FFCA3E7D1699580A0C27FAFD702E828AC651E;
 // System.Func`2<UnityEngine.UIElements.StyleSelectorPart,UnityEngine.Vector3>
 struct Func_2_t208A44437DC9E09577E7BBCC73E296265723730A;
 // System.Func`2<UnityEngine.UIElements.StyleSelectorPart,UnityEngine.Vector4>
@@ -1382,7 +1384,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral323F01A77A2FCF4FEFE948C12EF724C5AA3F18BE
 IL2CPP_EXTERN_C String_t* _stringLiteral47FF6BDF0CDE6B54E8E8B59F793070BE815043E4;
 IL2CPP_EXTERN_C String_t* _stringLiteral62033337B3C0F18800B77B8A8D1396BB7C35F55D;
 IL2CPP_EXTERN_C String_t* _stringLiteralE99BACA7A5F143853F97A502017B7A017B793C9F;
-IL2CPP_EXTERN_C const RuntimeMethod* Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m39858CB706855DD83B39A1175A439C4053F2C371_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m0F23E4D996A93E4F115C4CC3BAF7C3AB91971A46_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Flow_GetValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m1D21C24B641CA4D4D64A62F66DC88FF7C6B5EE4D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObjectEventUnit_1_get_hookName_m39057E751AD75798802571636291745673B850C8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObjectEventUnit_1_get_hookName_m3D839BC1211EB7884200510EED59C6D49F12CA48_RuntimeMethod_var;
@@ -1391,9 +1393,9 @@ IL2CPP_EXTERN_C const RuntimeMethod* GameObjectEventUnit_1_get_hookName_m75FD4E5
 IL2CPP_EXTERN_C const RuntimeMethod* GameObjectEventUnit_1_get_hookName_m92AEBA5EA3C5913876B78AC476F07DFFE5DA19BD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObjectEventUnit_1_get_hookName_mA2E8F3839DCABCBB035CDBE431BA59429815591E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObjectEventUnit_1_get_hookName_mD8AEF0D54C3FE2A2AF05F0A4166AEF73AE9024FE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* GenericPool_1_Free_m788384E2D8174E5C4B2166C05C18D4FBA11200A0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GenericPool_1_Free_m220619CD37FDD4873DD3A411838DE660C6BD1F28_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GraphElement_1_get_graph_m854D04434240C328A8D726D991A89A7CDAA9116B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* NativeSliceUnsafeUtility_GetUnsafePtr_TisGfxUpdateBufferRange_tC47258BCB472B0727B4FCE21A2A53506644C1A97_m5F1DC5A7F2E075BE15446D846A7E715A8FC248D8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeSliceUnsafeUtility_GetUnsafePtr_TisGfxUpdateBufferRange_tC47258BCB472B0727B4FCE21A2A53506644C1A97_mAE57778A1F047E37A6765BDF465408C07E34A173_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeSlice_1_get_Length_m8BCDDEB0A2B237EAFE1C55D19F65D0D343FE0FDF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Unit_ValueInput_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m15C005EB29528ABE95C259D94CC32FDA793728ED_RuntimeMethod_var;
 struct Delegate_t_marshaled_com;
@@ -3892,6 +3894,11 @@ struct Func_2_tACBF5A1656250800CE861707354491F0611F6624  : public MulticastDeleg
 {
 };
 
+// System.Func`2<UnityEngine.UIElements.StyleSelectorPart,UnityEngine.Vector2>
+struct Func_2_tE58FFCA3E7D1699580A0C27FAFD702E828AC651E  : public MulticastDelegate_t
+{
+};
+
 // System.Func`2<UnityEngine.UIElements.StyleSelectorPart,UnityEngine.Vector3>
 struct Func_2_t208A44437DC9E09577E7BBCC73E296265723730A  : public MulticastDelegate_t
 {
@@ -5995,13 +6002,13 @@ struct CachedCodeEntryKeyU5BU5D_tC40BCA06B0B1553C015B809472A7A59A50E6C7E9  : pub
 
 
 // System.Void* Unity.Collections.LowLevel.Unsafe.NativeSliceUnsafeUtility::GetUnsafePtr<UnityEngine.UIElements.UIR.GfxUpdateBufferRange>(Unity.Collections.NativeSlice`1<T>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* NativeSliceUnsafeUtility_GetUnsafePtr_TisGfxUpdateBufferRange_tC47258BCB472B0727B4FCE21A2A53506644C1A97_m5F1DC5A7F2E075BE15446D846A7E715A8FC248D8_gshared (NativeSlice_1_t379B1F960D4300C8AF09D1DF600888266C633C14 ___nativeSlice0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* NativeSliceUnsafeUtility_GetUnsafePtr_TisGfxUpdateBufferRange_tC47258BCB472B0727B4FCE21A2A53506644C1A97_mAE57778A1F047E37A6765BDF465408C07E34A173_gshared (NativeSlice_1_t379B1F960D4300C8AF09D1DF600888266C633C14 ___nativeSlice0, const RuntimeMethod* method) ;
 // System.Int32 Unity.Collections.NativeSlice`1<UnityEngine.UIElements.UIR.GfxUpdateBufferRange>::get_Length()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeSlice_1_get_Length_m8BCDDEB0A2B237EAFE1C55D19F65D0D343FE0FDF_gshared (NativeSlice_1_t379B1F960D4300C8AF09D1DF600888266C633C14* __this, const RuntimeMethod* method) ;
 // Unity.VisualScripting.ValueInput Unity.VisualScripting.Unit::ValueInput<System.Object>(System.String,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* Unit_ValueInput_TisRuntimeObject_mCE791C307ACBF90709C6013A540104F6FB0A1110_gshared (Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191* __this, String_t* ___key0, RuntimeObject* ___default1, const RuntimeMethod* method) ;
 // T Unity.VisualScripting.Flow::FetchValue<System.Object>(Unity.VisualScripting.ValueInput,Unity.VisualScripting.GraphReference)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Flow_FetchValue_TisRuntimeObject_m33977B76DED2307E4C0B2B6F12B73E4AF37D7F86_gshared (ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___input0, GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* ___reference1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Flow_FetchValue_TisRuntimeObject_mF1D1B5E64B2CFAE956191758B51612BFD1B26496_gshared (ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___input0, GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* ___reference1, const RuntimeMethod* method) ;
 // TGraph Unity.VisualScripting.GraphElement`1<System.Object>::get_graph()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* GraphElement_1_get_graph_mF018362F083AD86A9E71A2501520AA5666D4F4E4_gshared_inline (GraphElement_1_tE61715904D5A9E5C8385EAF991CC1F874C244DC4* __this, const RuntimeMethod* method) ;
 // System.Boolean Unity.Collections.NativeArray`1<System.UInt16>::Equals(Unity.Collections.NativeArray`1<T>)
@@ -6022,13 +6029,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Flow_GetValue_TisRuntimeObject
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.IntPtr UnityEngine.UIElements.UIR.Utility::AllocateBuffer(System.Int32,System.Int32,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Utility_AllocateBuffer_m8DC30A1D8EF56C1F02B665FF7E60887E30A21114 (int32_t ___elementCount0, int32_t ___elementStride1, bool ___vertexBuffer2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Utility_AllocateBuffer_m79C0A0B1748A573ABF499E8589F206628F06005C (int32_t ___elementCount0, int32_t ___elementStride1, bool ___vertexBuffer2, const RuntimeMethod* method) ;
 // System.Void UnityEngine.UIElements.UIR.Utility::FreeBuffer(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_FreeBuffer_m3994CCBBB9E8C8B063CC8554EE0DFBE244EA427B (intptr_t ___buffer0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_FreeBuffer_m710B8442D3809F3E10202F0FD5076A6C63B92F7C (intptr_t ___buffer0, const RuntimeMethod* method) ;
 // System.Void* Unity.Collections.LowLevel.Unsafe.NativeSliceUnsafeUtility::GetUnsafePtr<UnityEngine.UIElements.UIR.GfxUpdateBufferRange>(Unity.Collections.NativeSlice`1<T>)
-inline void* NativeSliceUnsafeUtility_GetUnsafePtr_TisGfxUpdateBufferRange_tC47258BCB472B0727B4FCE21A2A53506644C1A97_m5F1DC5A7F2E075BE15446D846A7E715A8FC248D8 (NativeSlice_1_t379B1F960D4300C8AF09D1DF600888266C633C14 ___nativeSlice0, const RuntimeMethod* method)
+inline void* NativeSliceUnsafeUtility_GetUnsafePtr_TisGfxUpdateBufferRange_tC47258BCB472B0727B4FCE21A2A53506644C1A97_mAE57778A1F047E37A6765BDF465408C07E34A173 (NativeSlice_1_t379B1F960D4300C8AF09D1DF600888266C633C14 ___nativeSlice0, const RuntimeMethod* method)
 {
-	return ((  void* (*) (NativeSlice_1_t379B1F960D4300C8AF09D1DF600888266C633C14, const RuntimeMethod*))NativeSliceUnsafeUtility_GetUnsafePtr_TisGfxUpdateBufferRange_tC47258BCB472B0727B4FCE21A2A53506644C1A97_m5F1DC5A7F2E075BE15446D846A7E715A8FC248D8_gshared)(___nativeSlice0, method);
+	return ((  void* (*) (NativeSlice_1_t379B1F960D4300C8AF09D1DF600888266C633C14, const RuntimeMethod*))NativeSliceUnsafeUtility_GetUnsafePtr_TisGfxUpdateBufferRange_tC47258BCB472B0727B4FCE21A2A53506644C1A97_mAE57778A1F047E37A6765BDF465408C07E34A173_gshared)(___nativeSlice0, method);
 }
 // System.Void System.IntPtr::.ctor(System.Void*)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void IntPtr__ctor_m4F9A9B80F01996B610D5AE4797F20B98ECD0A3D9_inline (intptr_t* __this, void* ___value0, const RuntimeMethod* method) ;
@@ -6038,7 +6045,7 @@ inline int32_t NativeSlice_1_get_Length_m8BCDDEB0A2B237EAFE1C55D19F65D0D343FE0FD
 	return ((  int32_t (*) (NativeSlice_1_t379B1F960D4300C8AF09D1DF600888266C633C14*, const RuntimeMethod*))NativeSlice_1_get_Length_m8BCDDEB0A2B237EAFE1C55D19F65D0D343FE0FDF_gshared)(__this, method);
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::UpdateBufferRanges(System.IntPtr,System.IntPtr,System.Int32,System.Int32,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_UpdateBufferRanges_mDAE14652D11D1AABBF39FD3AC71CC8B3A0880DAA (intptr_t ___buffer0, intptr_t ___ranges1, int32_t ___rangeCount2, int32_t ___writeRangeStart3, int32_t ___writeRangeEnd4, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_UpdateBufferRanges_m7E4FAAD598CA0D57796007E65D2822A781F0B07A (intptr_t ___buffer0, intptr_t ___ranges1, int32_t ___rangeCount2, int32_t ___writeRangeStart3, int32_t ___writeRangeEnd4, const RuntimeMethod* method) ;
 // Unity.VisualScripting.ValueInput Unity.VisualScripting.Unit::ValueInput<UnityEngine.GameObject>(System.String,T)
 inline ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* Unit_ValueInput_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m15C005EB29528ABE95C259D94CC32FDA793728ED (Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191* __this, String_t* ___key0, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___default1, const RuntimeMethod* method)
 {
@@ -6049,30 +6056,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D
 // System.Boolean Unity.VisualScripting.GraphPointer::get_hasData()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GraphPointer_get_hasData_m661361F0C5FE9E085F2FCEE255D61D3CB4AD985F (GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B* __this, const RuntimeMethod* method) ;
 // Unity.VisualScripting.EventHook Unity.VisualScripting.EventHook::op_Implicit(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EventHook_t1C9E2570B55940C342214BACB5E9EC889A113157 EventHook_op_Implicit_m93EAC8789A8E846D55B193CB46237A48C54693FA (String_t* ___name0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EventHook_t1C9E2570B55940C342214BACB5E9EC889A113157 EventHook_op_Implicit_m71EAD85C52512D5BD8FBFD47A93E4F68238C794D (String_t* ___name0, const RuntimeMethod* method) ;
 // System.Void Unity.VisualScripting.EventHook::.ctor(System.String,System.Object,System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventHook__ctor_m1A17871BCBD01C71D26FCE6875681560AB2F0209 (EventHook_t1C9E2570B55940C342214BACB5E9EC889A113157* __this, String_t* ___name0, RuntimeObject* ___target1, RuntimeObject* ___tag2, const RuntimeMethod* method) ;
 // System.String System.String::Format(System.String,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___format0, RuntimeObject* ___arg01, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m8C122B26BC5AA10E2550AECA16E57DAE10F07E30 (String_t* ___format0, RuntimeObject* ___arg01, const RuntimeMethod* method) ;
 // System.Void Unity.VisualScripting.InvalidImplementationException::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidImplementationException__ctor_mB7F77B15C275D57A96CA4CB448B481A5734E50A2 (InvalidImplementationException_t0ED7E88DE48F87CA15C0BC04F7B63DFEEF7EF9D6* __this, String_t* ___message0, const RuntimeMethod* method) ;
 // Unity.VisualScripting.GraphReference Unity.VisualScripting.GraphStack::ToReference()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* GraphStack_ToReference_m0793568212CA2965C7D185AED3AD8D90BE34E69B (GraphStack_tD9049F5FB5F8D9E9CD80764D18067D0F87343E7C* __this, const RuntimeMethod* method) ;
 // T Unity.VisualScripting.Flow::FetchValue<UnityEngine.GameObject>(Unity.VisualScripting.ValueInput,Unity.VisualScripting.GraphReference)
-inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m39858CB706855DD83B39A1175A439C4053F2C371 (ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___input0, GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* ___reference1, const RuntimeMethod* method)
+inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m0F23E4D996A93E4F115C4CC3BAF7C3AB91971A46 (ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___input0, GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* ___reference1, const RuntimeMethod* method)
 {
-	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392*, GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9*, const RuntimeMethod*))Flow_FetchValue_TisRuntimeObject_m33977B76DED2307E4C0B2B6F12B73E4AF37D7F86_gshared)(___input0, ___reference1, method);
+	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392*, GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9*, const RuntimeMethod*))Flow_FetchValue_TisRuntimeObject_mF1D1B5E64B2CFAE956191758B51612BFD1B26496_gshared)(___input0, ___reference1, method);
 }
 // System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_m4D656395C27694A7F33F5AA8DE80A7AAF9E20BA7 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
 // System.Boolean Unity.VisualScripting.UnityThread::get_allowsAPI()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnityThread_get_allowsAPI_mD5F65F1DD7EB660A36B87BAAC6F346FC41B7EADD (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnityThread_get_allowsAPI_m3658EA6A7B6EFE896CE7AEF4222EE361162BB539 (const RuntimeMethod* method) ;
 // System.Boolean System.Type::op_Inequality(System.Type,System.Type)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Type_op_Inequality_m83209C7BB3C05DFBEA3B6199B0BEFE8037301172 (Type_t* ___left0, Type_t* ___right1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Type_op_Inequality_m71AAC993EBBDBA44EE73847D68F71C70AF7AD1D5 (Type_t* ___left0, Type_t* ___right1, const RuntimeMethod* method) ;
 // System.Void Unity.VisualScripting.MessageListener::AddTo(System.Type,UnityEngine.GameObject)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageListener_AddTo_mE46D2706C2DCF33A17A3464465B1B41B50776A0A (Type_t* ___messageListenerType0, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___gameObject1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageListener_AddTo_m28922B7818E513203E6DD7AB129A1F573ECFB02B (Type_t* ___messageListenerType0, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___gameObject1, const RuntimeMethod* method) ;
 // TGraph Unity.VisualScripting.GraphElement`1<Unity.VisualScripting.FlowGraph>::get_graph()
 inline FlowGraph_tF9E42FECF535CD5BAB10F75672B5BCE285627A45* GraphElement_1_get_graph_m854D04434240C328A8D726D991A89A7CDAA9116B_inline (GraphElement_1_t3220EDD6251B31FC22A192EC12682C1D8B28F16D* __this, const RuntimeMethod* method)
 {
@@ -6231,9 +6238,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CachedCodeEntryKey_Equals_m55F9ED97CB9AF
 // System.Int32 System.Text.RegularExpressions.Regex/CachedCodeEntryKey::GetHashCode()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CachedCodeEntryKey_GetHashCode_m253B53C100F840B987A487020F02184019D776DE (CachedCodeEntryKey_t8A54BDD6E52145D17DB1A2EB0CE0B4D4CB112F31* __this, const RuntimeMethod* method) ;
 // System.Void System.Threading.Monitor::Exit(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA (RuntimeObject* ___obj0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9 (RuntimeObject* ___obj0, const RuntimeMethod* method) ;
 // System.Void System.Threading.Monitor::Enter(System.Object,System.Boolean&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149 (RuntimeObject* ___obj0, bool* ___lockTaken1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Monitor_Enter_m00506757392936AA62DBE2C5FFBEE69EE920C4D4 (RuntimeObject* ___obj0, bool* ___lockTaken1, const RuntimeMethod* method) ;
 // System.Void System.ArgumentException::.ctor(System.String,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentException__ctor_m8F9D40CE19D19B698A70F9A258640EB52DB39B62 (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* __this, String_t* ___message0, String_t* ___paramName1, const RuntimeMethod* method) ;
 // T Unity.VisualScripting.Flow::GetValue<UnityEngine.GameObject>(Unity.VisualScripting.ValueInput)
@@ -6245,6 +6252,87 @@ inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Flow_GetValue_TisGa
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unit__ctor_m7C07A3A00D7777361F4B86B45F40073D1A65D8B2 (Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191* __this, const RuntimeMethod* method) ;
 // UnityEngine.Vector4 UnityEngine.Matrix4x4::GetColumn(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Matrix4x4_GetColumn_m5CE079D7A69DE70E3144BADD20A1651C73A8D118 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* __this, int32_t ___index0, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Func_2_Invoke_m35E6E7CBB739C23EFC426907C293D4884C512111_Multicast(Func_2_tE58FFCA3E7D1699580A0C27FAFD702E828AC651E* __this, StyleSelectorPart_tEE5B8ADC7D114C7486CC8301FF96C114FF3C9470 ___arg0, const RuntimeMethod* method)
+{
+	il2cpp_array_size_t length = __this->___delegates_13->max_length;
+	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 retVal;
+	memset((&retVal), 0, sizeof(retVal));
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Func_2_tE58FFCA3E7D1699580A0C27FAFD702E828AC651E* currentDelegate = reinterpret_cast<Func_2_tE58FFCA3E7D1699580A0C27FAFD702E828AC651E*>(delegatesToInvoke[i]);
+		typedef Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 (*FunctionPointerType) (RuntimeObject*, StyleSelectorPart_tEE5B8ADC7D114C7486CC8301FF96C114FF3C9470, const RuntimeMethod*);
+		retVal = ((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___arg0, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
+	}
+	return retVal;
+}
+Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Func_2_Invoke_m35E6E7CBB739C23EFC426907C293D4884C512111_OpenInst(Func_2_tE58FFCA3E7D1699580A0C27FAFD702E828AC651E* __this, StyleSelectorPart_tEE5B8ADC7D114C7486CC8301FF96C114FF3C9470 ___arg0, const RuntimeMethod* method)
+{
+	typedef Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 (*FunctionPointerType) (StyleSelectorPart_tEE5B8ADC7D114C7486CC8301FF96C114FF3C9470, const RuntimeMethod*);
+	return ((FunctionPointerType)__this->___method_ptr_0)(___arg0, method);
+}
+Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Func_2_Invoke_m35E6E7CBB739C23EFC426907C293D4884C512111_OpenStatic(Func_2_tE58FFCA3E7D1699580A0C27FAFD702E828AC651E* __this, StyleSelectorPart_tEE5B8ADC7D114C7486CC8301FF96C114FF3C9470 ___arg0, const RuntimeMethod* method)
+{
+	typedef Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 (*FunctionPointerType) (StyleSelectorPart_tEE5B8ADC7D114C7486CC8301FF96C114FF3C9470, const RuntimeMethod*);
+	return ((FunctionPointerType)__this->___method_ptr_0)(___arg0, method);
+}
+Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Func_2_Invoke_m35E6E7CBB739C23EFC426907C293D4884C512111_OpenStaticInvoker(Func_2_tE58FFCA3E7D1699580A0C27FAFD702E828AC651E* __this, StyleSelectorPart_tEE5B8ADC7D114C7486CC8301FF96C114FF3C9470 ___arg0, const RuntimeMethod* method)
+{
+	return InvokerFuncInvoker1< Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, StyleSelectorPart_tEE5B8ADC7D114C7486CC8301FF96C114FF3C9470 >::Invoke(__this->___method_ptr_0, method, NULL, ___arg0);
+}
+Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Func_2_Invoke_m35E6E7CBB739C23EFC426907C293D4884C512111_ClosedStaticInvoker(Func_2_tE58FFCA3E7D1699580A0C27FAFD702E828AC651E* __this, StyleSelectorPart_tEE5B8ADC7D114C7486CC8301FF96C114FF3C9470 ___arg0, const RuntimeMethod* method)
+{
+	return InvokerFuncInvoker2< Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, RuntimeObject*, StyleSelectorPart_tEE5B8ADC7D114C7486CC8301FF96C114FF3C9470 >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___arg0);
+}
+// System.Void System.Func`2<UnityEngine.UIElements.StyleSelectorPart,UnityEngine.Vector2>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m4F28DE4CA988FC4DF63DFB2A5CFD63AE5DB33F61_gshared (Func_2_tE58FFCA3E7D1699580A0C27FAFD702E828AC651E* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
+{
+	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
+	__this->___method_3 = ___method1;
+	__this->___m_target_2 = ___object0;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
+	__this->___method_code_6 = (intptr_t)__this;
+	if (MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		bool isOpen = parameterCount == 1;
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&Func_2_Invoke_m35E6E7CBB739C23EFC426907C293D4884C512111_OpenStaticInvoker;
+			else
+				__this->___invoke_impl_1 = (intptr_t)&Func_2_Invoke_m35E6E7CBB739C23EFC426907C293D4884C512111_ClosedStaticInvoker;
+		else
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&Func_2_Invoke_m35E6E7CBB739C23EFC426907C293D4884C512111_OpenStatic;
+			else
+				{
+					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+				}
+	}
+	else
+	{
+		if (___object0 == NULL)
+			il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+	}
+	__this->___extra_arg_5 = (intptr_t)&Func_2_Invoke_m35E6E7CBB739C23EFC426907C293D4884C512111_Multicast;
+}
+// TResult System.Func`2<UnityEngine.UIElements.StyleSelectorPart,UnityEngine.Vector2>::Invoke(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Func_2_Invoke_m35E6E7CBB739C23EFC426907C293D4884C512111_gshared (Func_2_tE58FFCA3E7D1699580A0C27FAFD702E828AC651E* __this, StyleSelectorPart_tEE5B8ADC7D114C7486CC8301FF96C114FF3C9470 ___arg0, const RuntimeMethod* method) 
+{
+	typedef Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 (*FunctionPointerType) (RuntimeObject*, StyleSelectorPart_tEE5B8ADC7D114C7486CC8301FF96C114FF3C9470, const RuntimeMethod*);
+	return ((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___arg0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -19600,7 +19688,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPUBuffer_1__ctor_m6BE7F0F1656090F12A618
 		int32_t L_4 = ___type1;
 		il2cpp_codegen_runtime_class_init_inline(Utility_t8BCC393462C6270211734BE47CF5350F05EC97AD_il2cpp_TypeInfo_var);
 		intptr_t L_5;
-		L_5 = Utility_AllocateBuffer_m8DC30A1D8EF56C1F02B665FF7E60887E30A21114(L_2, L_3, (bool)((((int32_t)L_4) == ((int32_t)0))? 1 : 0), NULL);
+		L_5 = Utility_AllocateBuffer_m79C0A0B1748A573ABF499E8589F206628F06005C(L_2, L_3, (bool)((((int32_t)L_4) == ((int32_t)0))? 1 : 0), NULL);
 		__this->___buffer_0 = L_5;
 		return;
 	}
@@ -19617,7 +19705,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPUBuffer_1_Dispose_m4EC95C250D23C94E880
 	{
 		intptr_t L_0 = (intptr_t)__this->___buffer_0;
 		il2cpp_codegen_runtime_class_init_inline(Utility_t8BCC393462C6270211734BE47CF5350F05EC97AD_il2cpp_TypeInfo_var);
-		Utility_FreeBuffer_m3994CCBBB9E8C8B063CC8554EE0DFBE244EA427B(L_0, NULL);
+		Utility_FreeBuffer_m710B8442D3809F3E10202F0FD5076A6C63B92F7C(L_0, NULL);
 		return;
 	}
 }
@@ -19627,7 +19715,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPUBuffer_1_UpdateRanges_mFBFFF7E729ACD9
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeSliceUnsafeUtility_GetUnsafePtr_TisGfxUpdateBufferRange_tC47258BCB472B0727B4FCE21A2A53506644C1A97_m5F1DC5A7F2E075BE15446D846A7E715A8FC248D8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeSliceUnsafeUtility_GetUnsafePtr_TisGfxUpdateBufferRange_tC47258BCB472B0727B4FCE21A2A53506644C1A97_mAE57778A1F047E37A6765BDF465408C07E34A173_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeSlice_1_get_Length_m8BCDDEB0A2B237EAFE1C55D19F65D0D343FE0FDF_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Utility_t8BCC393462C6270211734BE47CF5350F05EC97AD_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
@@ -19636,7 +19724,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPUBuffer_1_UpdateRanges_mFBFFF7E729ACD9
 		intptr_t L_0 = (intptr_t)__this->___buffer_0;
 		NativeSlice_1_t379B1F960D4300C8AF09D1DF600888266C633C14 L_1 = ___ranges0;
 		void* L_2;
-		L_2 = NativeSliceUnsafeUtility_GetUnsafePtr_TisGfxUpdateBufferRange_tC47258BCB472B0727B4FCE21A2A53506644C1A97_m5F1DC5A7F2E075BE15446D846A7E715A8FC248D8(L_1, NativeSliceUnsafeUtility_GetUnsafePtr_TisGfxUpdateBufferRange_tC47258BCB472B0727B4FCE21A2A53506644C1A97_m5F1DC5A7F2E075BE15446D846A7E715A8FC248D8_RuntimeMethod_var);
+		L_2 = NativeSliceUnsafeUtility_GetUnsafePtr_TisGfxUpdateBufferRange_tC47258BCB472B0727B4FCE21A2A53506644C1A97_mAE57778A1F047E37A6765BDF465408C07E34A173(L_1, NativeSliceUnsafeUtility_GetUnsafePtr_TisGfxUpdateBufferRange_tC47258BCB472B0727B4FCE21A2A53506644C1A97_mAE57778A1F047E37A6765BDF465408C07E34A173_RuntimeMethod_var);
 		intptr_t L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		IntPtr__ctor_m4F9A9B80F01996B610D5AE4797F20B98ECD0A3D9_inline((&L_3), L_2, /*hidden argument*/NULL);
@@ -19645,7 +19733,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPUBuffer_1_UpdateRanges_mFBFFF7E729ACD9
 		int32_t L_5 = ___rangesMin1;
 		int32_t L_6 = ___rangesMax2;
 		il2cpp_codegen_runtime_class_init_inline(Utility_t8BCC393462C6270211734BE47CF5350F05EC97AD_il2cpp_TypeInfo_var);
-		Utility_UpdateBufferRanges_mDAE14652D11D1AABBF39FD3AC71CC8B3A0880DAA(L_0, L_3, L_4, L_5, L_6, NULL);
+		Utility_UpdateBufferRanges_m7E4FAAD598CA0D57796007E65D2822A781F0B07A(L_0, L_3, L_4, L_5, L_6, NULL);
 		return;
 	}
 }
@@ -19711,7 +19799,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPUBuffer_1__ctor_m022630DA0CE17471448DC
 		int32_t L_4 = ___type1;
 		il2cpp_codegen_runtime_class_init_inline(Utility_t8BCC393462C6270211734BE47CF5350F05EC97AD_il2cpp_TypeInfo_var);
 		intptr_t L_5;
-		L_5 = Utility_AllocateBuffer_m8DC30A1D8EF56C1F02B665FF7E60887E30A21114(L_2, L_3, (bool)((((int32_t)L_4) == ((int32_t)0))? 1 : 0), NULL);
+		L_5 = Utility_AllocateBuffer_m79C0A0B1748A573ABF499E8589F206628F06005C(L_2, L_3, (bool)((((int32_t)L_4) == ((int32_t)0))? 1 : 0), NULL);
 		__this->___buffer_0 = L_5;
 		return;
 	}
@@ -19728,7 +19816,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPUBuffer_1_Dispose_m5ADEAC4C2475D96DCB0
 	{
 		intptr_t L_0 = (intptr_t)__this->___buffer_0;
 		il2cpp_codegen_runtime_class_init_inline(Utility_t8BCC393462C6270211734BE47CF5350F05EC97AD_il2cpp_TypeInfo_var);
-		Utility_FreeBuffer_m3994CCBBB9E8C8B063CC8554EE0DFBE244EA427B(L_0, NULL);
+		Utility_FreeBuffer_m710B8442D3809F3E10202F0FD5076A6C63B92F7C(L_0, NULL);
 		return;
 	}
 }
@@ -19738,7 +19826,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPUBuffer_1_UpdateRanges_m36E2B663F9C07F
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeSliceUnsafeUtility_GetUnsafePtr_TisGfxUpdateBufferRange_tC47258BCB472B0727B4FCE21A2A53506644C1A97_m5F1DC5A7F2E075BE15446D846A7E715A8FC248D8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeSliceUnsafeUtility_GetUnsafePtr_TisGfxUpdateBufferRange_tC47258BCB472B0727B4FCE21A2A53506644C1A97_mAE57778A1F047E37A6765BDF465408C07E34A173_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeSlice_1_get_Length_m8BCDDEB0A2B237EAFE1C55D19F65D0D343FE0FDF_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Utility_t8BCC393462C6270211734BE47CF5350F05EC97AD_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
@@ -19747,7 +19835,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPUBuffer_1_UpdateRanges_m36E2B663F9C07F
 		intptr_t L_0 = (intptr_t)__this->___buffer_0;
 		NativeSlice_1_t379B1F960D4300C8AF09D1DF600888266C633C14 L_1 = ___ranges0;
 		void* L_2;
-		L_2 = NativeSliceUnsafeUtility_GetUnsafePtr_TisGfxUpdateBufferRange_tC47258BCB472B0727B4FCE21A2A53506644C1A97_m5F1DC5A7F2E075BE15446D846A7E715A8FC248D8(L_1, NativeSliceUnsafeUtility_GetUnsafePtr_TisGfxUpdateBufferRange_tC47258BCB472B0727B4FCE21A2A53506644C1A97_m5F1DC5A7F2E075BE15446D846A7E715A8FC248D8_RuntimeMethod_var);
+		L_2 = NativeSliceUnsafeUtility_GetUnsafePtr_TisGfxUpdateBufferRange_tC47258BCB472B0727B4FCE21A2A53506644C1A97_mAE57778A1F047E37A6765BDF465408C07E34A173(L_1, NativeSliceUnsafeUtility_GetUnsafePtr_TisGfxUpdateBufferRange_tC47258BCB472B0727B4FCE21A2A53506644C1A97_mAE57778A1F047E37A6765BDF465408C07E34A173_RuntimeMethod_var);
 		intptr_t L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		IntPtr__ctor_m4F9A9B80F01996B610D5AE4797F20B98ECD0A3D9_inline((&L_3), L_2, /*hidden argument*/NULL);
@@ -19756,7 +19844,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPUBuffer_1_UpdateRanges_m36E2B663F9C07F
 		int32_t L_5 = ___rangesMin1;
 		int32_t L_6 = ___rangesMax2;
 		il2cpp_codegen_runtime_class_init_inline(Utility_t8BCC393462C6270211734BE47CF5350F05EC97AD_il2cpp_TypeInfo_var);
-		Utility_UpdateBufferRanges_mDAE14652D11D1AABBF39FD3AC71CC8B3A0880DAA(L_0, L_3, L_4, L_5, L_6, NULL);
+		Utility_UpdateBufferRanges_m7E4FAAD598CA0D57796007E65D2822A781F0B07A(L_0, L_3, L_4, L_5, L_6, NULL);
 		return;
 	}
 }
@@ -19886,7 +19974,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EventHook_t1C9E2570B55940C342214BACB5E9EC889A
 		String_t* L_2;
 		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(91 /* System.String Unity.VisualScripting.GameObjectEventUnit`1<System.Boolean>::get_hookName() */, __this);
 		EventHook_t1C9E2570B55940C342214BACB5E9EC889A113157 L_3;
-		L_3 = EventHook_op_Implicit_m93EAC8789A8E846D55B193CB46237A48C54693FA(L_2, NULL);
+		L_3 = EventHook_op_Implicit_m71EAD85C52512D5BD8FBFD47A93E4F68238C794D(L_2, NULL);
 		return L_3;
 	}
 
@@ -19916,7 +20004,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GameObjectEventUnit_1_get_hookName_
 	{
 		// protected virtual string hookName => throw new InvalidImplementationException($"Missing event hook for '{this}'.");
 		String_t* L_0;
-		L_0 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral47FF6BDF0CDE6B54E8E8B59F793070BE815043E4)), (RuntimeObject*)__this, NULL);
+		L_0 = String_Format_m8C122B26BC5AA10E2550AECA16E57DAE10F07E30(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral47FF6BDF0CDE6B54E8E8B59F793070BE815043E4)), (RuntimeObject*)__this, NULL);
 		InvalidImplementationException_t0ED7E88DE48F87CA15C0BC04F7B63DFEEF7EF9D6* L_1 = (InvalidImplementationException_t0ED7E88DE48F87CA15C0BC04F7B63DFEEF7EF9D6*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidImplementationException_t0ED7E88DE48F87CA15C0BC04F7B63DFEEF7EF9D6_il2cpp_TypeInfo_var)));
 		NullCheck(L_1);
 		InvalidImplementationException__ctor_mB7F77B15C275D57A96CA4CB448B481A5734E50A2(L_1, L_0, NULL);
@@ -19929,7 +20017,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObjectEventUnit_1_UpdateTarget_m8ABA
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m39858CB706855DD83B39A1175A439C4053F2C371_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m0F23E4D996A93E4F115C4CC3BAF7C3AB91971A46_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -19956,7 +20044,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObjectEventUnit_1_UpdateTarget_m8ABA
 		GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* L_6;
 		L_6 = GraphStack_ToReference_m0793568212CA2965C7D185AED3AD8D90BE34E69B(L_5, NULL);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
-		L_7 = Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m39858CB706855DD83B39A1175A439C4053F2C371(L_4, L_6, Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m39858CB706855DD83B39A1175A439C4053F2C371_RuntimeMethod_var);
+		L_7 = Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m0F23E4D996A93E4F115C4CC3BAF7C3AB91971A46(L_4, L_6, Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m0F23E4D996A93E4F115C4CC3BAF7C3AB91971A46_RuntimeMethod_var);
 		V_2 = L_7;
 		// if (newTarget != data.target)
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = V_2;
@@ -19965,7 +20053,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObjectEventUnit_1_UpdateTarget_m8ABA
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_9->___target_4;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_11;
-		L_11 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_10, NULL);
+		L_11 = Object_op_Inequality_m4D656395C27694A7F33F5AA8DE80A7AAF9E20BA7((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_10, NULL);
 		if (!L_11)
 		{
 			goto IL_004b;
@@ -20053,7 +20141,7 @@ IL_000a:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_4->___target_4;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
-		L_6 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		L_6 = Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_6)
 		{
 			goto IL_0021;
@@ -20069,7 +20157,7 @@ IL_0021:
 		// if (UnityThread.allowsAPI)
 		il2cpp_codegen_runtime_class_init_inline(UnityThread_tF9B353D2BD29AE999AC8B11E5FF55A3EDD6F783E_il2cpp_TypeInfo_var);
 		bool L_7;
-		L_7 = UnityThread_get_allowsAPI_mD5F65F1DD7EB660A36B87BAAC6F346FC41B7EADD(NULL);
+		L_7 = UnityThread_get_allowsAPI_m3658EA6A7B6EFE896CE7AEF4222EE361162BB539(NULL);
 		if (!L_7)
 		{
 			goto IL_0047;
@@ -20081,7 +20169,7 @@ IL_0021:
 		L_8 = VirtualFuncInvoker0< Type_t* >::Invoke(90 /* System.Type Unity.VisualScripting.GameObjectEventUnit`1<System.Boolean>::get_MessageListenerType() */, __this);
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		bool L_9;
-		L_9 = Type_op_Inequality_m83209C7BB3C05DFBEA3B6199B0BEFE8037301172(L_8, (Type_t*)NULL, NULL);
+		L_9 = Type_op_Inequality_m71AAC993EBBDBA44EE73847D68F71C70AF7AD1D5(L_8, (Type_t*)NULL, NULL);
 		if (!L_9)
 		{
 			goto IL_0047;
@@ -20094,7 +20182,7 @@ IL_0021:
 		Data_t9154AF890802133A5E80C8B717406E1803E28D41* L_11 = V_0;
 		NullCheck(L_11);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_11->___target_4;
-		MessageListener_AddTo_mE46D2706C2DCF33A17A3464465B1B41B50776A0A(L_10, L_12, NULL);
+		MessageListener_AddTo_m28922B7818E513203E6DD7AB129A1F573ECFB02B(L_10, L_12, NULL);
 	}
 
 IL_0047:
@@ -20235,7 +20323,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EventHook_t1C9E2570B55940C342214BACB5E9EC889A
 		String_t* L_2;
 		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(91 /* System.String Unity.VisualScripting.GameObjectEventUnit`1<Unity.VisualScripting.CustomEventArgs>::get_hookName() */, __this);
 		EventHook_t1C9E2570B55940C342214BACB5E9EC889A113157 L_3;
-		L_3 = EventHook_op_Implicit_m93EAC8789A8E846D55B193CB46237A48C54693FA(L_2, NULL);
+		L_3 = EventHook_op_Implicit_m71EAD85C52512D5BD8FBFD47A93E4F68238C794D(L_2, NULL);
 		return L_3;
 	}
 
@@ -20265,7 +20353,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GameObjectEventUnit_1_get_hookName_
 	{
 		// protected virtual string hookName => throw new InvalidImplementationException($"Missing event hook for '{this}'.");
 		String_t* L_0;
-		L_0 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral47FF6BDF0CDE6B54E8E8B59F793070BE815043E4)), (RuntimeObject*)__this, NULL);
+		L_0 = String_Format_m8C122B26BC5AA10E2550AECA16E57DAE10F07E30(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral47FF6BDF0CDE6B54E8E8B59F793070BE815043E4)), (RuntimeObject*)__this, NULL);
 		InvalidImplementationException_t0ED7E88DE48F87CA15C0BC04F7B63DFEEF7EF9D6* L_1 = (InvalidImplementationException_t0ED7E88DE48F87CA15C0BC04F7B63DFEEF7EF9D6*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidImplementationException_t0ED7E88DE48F87CA15C0BC04F7B63DFEEF7EF9D6_il2cpp_TypeInfo_var)));
 		NullCheck(L_1);
 		InvalidImplementationException__ctor_mB7F77B15C275D57A96CA4CB448B481A5734E50A2(L_1, L_0, NULL);
@@ -20278,7 +20366,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObjectEventUnit_1_UpdateTarget_m5D3C
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m39858CB706855DD83B39A1175A439C4053F2C371_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m0F23E4D996A93E4F115C4CC3BAF7C3AB91971A46_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -20305,7 +20393,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObjectEventUnit_1_UpdateTarget_m5D3C
 		GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* L_6;
 		L_6 = GraphStack_ToReference_m0793568212CA2965C7D185AED3AD8D90BE34E69B(L_5, NULL);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
-		L_7 = Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m39858CB706855DD83B39A1175A439C4053F2C371(L_4, L_6, Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m39858CB706855DD83B39A1175A439C4053F2C371_RuntimeMethod_var);
+		L_7 = Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m0F23E4D996A93E4F115C4CC3BAF7C3AB91971A46(L_4, L_6, Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m0F23E4D996A93E4F115C4CC3BAF7C3AB91971A46_RuntimeMethod_var);
 		V_2 = L_7;
 		// if (newTarget != data.target)
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = V_2;
@@ -20314,7 +20402,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObjectEventUnit_1_UpdateTarget_m5D3C
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_9->___target_4;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_11;
-		L_11 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_10, NULL);
+		L_11 = Object_op_Inequality_m4D656395C27694A7F33F5AA8DE80A7AAF9E20BA7((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_10, NULL);
 		if (!L_11)
 		{
 			goto IL_004b;
@@ -20402,7 +20490,7 @@ IL_000a:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_4->___target_4;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
-		L_6 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		L_6 = Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_6)
 		{
 			goto IL_0021;
@@ -20418,7 +20506,7 @@ IL_0021:
 		// if (UnityThread.allowsAPI)
 		il2cpp_codegen_runtime_class_init_inline(UnityThread_tF9B353D2BD29AE999AC8B11E5FF55A3EDD6F783E_il2cpp_TypeInfo_var);
 		bool L_7;
-		L_7 = UnityThread_get_allowsAPI_mD5F65F1DD7EB660A36B87BAAC6F346FC41B7EADD(NULL);
+		L_7 = UnityThread_get_allowsAPI_m3658EA6A7B6EFE896CE7AEF4222EE361162BB539(NULL);
 		if (!L_7)
 		{
 			goto IL_0047;
@@ -20430,7 +20518,7 @@ IL_0021:
 		L_8 = VirtualFuncInvoker0< Type_t* >::Invoke(90 /* System.Type Unity.VisualScripting.GameObjectEventUnit`1<Unity.VisualScripting.CustomEventArgs>::get_MessageListenerType() */, __this);
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		bool L_9;
-		L_9 = Type_op_Inequality_m83209C7BB3C05DFBEA3B6199B0BEFE8037301172(L_8, (Type_t*)NULL, NULL);
+		L_9 = Type_op_Inequality_m71AAC993EBBDBA44EE73847D68F71C70AF7AD1D5(L_8, (Type_t*)NULL, NULL);
 		if (!L_9)
 		{
 			goto IL_0047;
@@ -20443,7 +20531,7 @@ IL_0021:
 		Data_tA6D6ED6ED155C36A3D2B486545D0BC2D2F5E22DC* L_11 = V_0;
 		NullCheck(L_11);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_11->___target_4;
-		MessageListener_AddTo_mE46D2706C2DCF33A17A3464465B1B41B50776A0A(L_10, L_12, NULL);
+		MessageListener_AddTo_m28922B7818E513203E6DD7AB129A1F573ECFB02B(L_10, L_12, NULL);
 	}
 
 IL_0047:
@@ -20584,7 +20672,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EventHook_t1C9E2570B55940C342214BACB5E9EC889A
 		String_t* L_2;
 		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(91 /* System.String Unity.VisualScripting.GameObjectEventUnit`1<Unity.VisualScripting.EmptyEventArgs>::get_hookName() */, __this);
 		EventHook_t1C9E2570B55940C342214BACB5E9EC889A113157 L_3;
-		L_3 = EventHook_op_Implicit_m93EAC8789A8E846D55B193CB46237A48C54693FA(L_2, NULL);
+		L_3 = EventHook_op_Implicit_m71EAD85C52512D5BD8FBFD47A93E4F68238C794D(L_2, NULL);
 		return L_3;
 	}
 
@@ -20614,7 +20702,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GameObjectEventUnit_1_get_hookName_
 	{
 		// protected virtual string hookName => throw new InvalidImplementationException($"Missing event hook for '{this}'.");
 		String_t* L_0;
-		L_0 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral47FF6BDF0CDE6B54E8E8B59F793070BE815043E4)), (RuntimeObject*)__this, NULL);
+		L_0 = String_Format_m8C122B26BC5AA10E2550AECA16E57DAE10F07E30(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral47FF6BDF0CDE6B54E8E8B59F793070BE815043E4)), (RuntimeObject*)__this, NULL);
 		InvalidImplementationException_t0ED7E88DE48F87CA15C0BC04F7B63DFEEF7EF9D6* L_1 = (InvalidImplementationException_t0ED7E88DE48F87CA15C0BC04F7B63DFEEF7EF9D6*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidImplementationException_t0ED7E88DE48F87CA15C0BC04F7B63DFEEF7EF9D6_il2cpp_TypeInfo_var)));
 		NullCheck(L_1);
 		InvalidImplementationException__ctor_mB7F77B15C275D57A96CA4CB448B481A5734E50A2(L_1, L_0, NULL);
@@ -20627,7 +20715,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObjectEventUnit_1_UpdateTarget_mA6DF
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m39858CB706855DD83B39A1175A439C4053F2C371_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m0F23E4D996A93E4F115C4CC3BAF7C3AB91971A46_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -20654,7 +20742,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObjectEventUnit_1_UpdateTarget_mA6DF
 		GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* L_6;
 		L_6 = GraphStack_ToReference_m0793568212CA2965C7D185AED3AD8D90BE34E69B(L_5, NULL);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
-		L_7 = Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m39858CB706855DD83B39A1175A439C4053F2C371(L_4, L_6, Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m39858CB706855DD83B39A1175A439C4053F2C371_RuntimeMethod_var);
+		L_7 = Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m0F23E4D996A93E4F115C4CC3BAF7C3AB91971A46(L_4, L_6, Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m0F23E4D996A93E4F115C4CC3BAF7C3AB91971A46_RuntimeMethod_var);
 		V_2 = L_7;
 		// if (newTarget != data.target)
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = V_2;
@@ -20663,7 +20751,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObjectEventUnit_1_UpdateTarget_mA6DF
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_9->___target_4;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_11;
-		L_11 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_10, NULL);
+		L_11 = Object_op_Inequality_m4D656395C27694A7F33F5AA8DE80A7AAF9E20BA7((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_10, NULL);
 		if (!L_11)
 		{
 			goto IL_004b;
@@ -20751,7 +20839,7 @@ IL_000a:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_4->___target_4;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
-		L_6 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		L_6 = Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_6)
 		{
 			goto IL_0021;
@@ -20767,7 +20855,7 @@ IL_0021:
 		// if (UnityThread.allowsAPI)
 		il2cpp_codegen_runtime_class_init_inline(UnityThread_tF9B353D2BD29AE999AC8B11E5FF55A3EDD6F783E_il2cpp_TypeInfo_var);
 		bool L_7;
-		L_7 = UnityThread_get_allowsAPI_mD5F65F1DD7EB660A36B87BAAC6F346FC41B7EADD(NULL);
+		L_7 = UnityThread_get_allowsAPI_m3658EA6A7B6EFE896CE7AEF4222EE361162BB539(NULL);
 		if (!L_7)
 		{
 			goto IL_0047;
@@ -20779,7 +20867,7 @@ IL_0021:
 		L_8 = VirtualFuncInvoker0< Type_t* >::Invoke(90 /* System.Type Unity.VisualScripting.GameObjectEventUnit`1<Unity.VisualScripting.EmptyEventArgs>::get_MessageListenerType() */, __this);
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		bool L_9;
-		L_9 = Type_op_Inequality_m83209C7BB3C05DFBEA3B6199B0BEFE8037301172(L_8, (Type_t*)NULL, NULL);
+		L_9 = Type_op_Inequality_m71AAC993EBBDBA44EE73847D68F71C70AF7AD1D5(L_8, (Type_t*)NULL, NULL);
 		if (!L_9)
 		{
 			goto IL_0047;
@@ -20792,7 +20880,7 @@ IL_0021:
 		Data_tBCAA25B76A4199FDD7D3DC3B3E975B929E50EE36* L_11 = V_0;
 		NullCheck(L_11);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_11->___target_4;
-		MessageListener_AddTo_mE46D2706C2DCF33A17A3464465B1B41B50776A0A(L_10, L_12, NULL);
+		MessageListener_AddTo_m28922B7818E513203E6DD7AB129A1F573ECFB02B(L_10, L_12, NULL);
 	}
 
 IL_0047:
@@ -20933,7 +21021,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EventHook_t1C9E2570B55940C342214BACB5E9EC889A
 		String_t* L_2;
 		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(91 /* System.String Unity.VisualScripting.GameObjectEventUnit`1<System.Int32>::get_hookName() */, __this);
 		EventHook_t1C9E2570B55940C342214BACB5E9EC889A113157 L_3;
-		L_3 = EventHook_op_Implicit_m93EAC8789A8E846D55B193CB46237A48C54693FA(L_2, NULL);
+		L_3 = EventHook_op_Implicit_m71EAD85C52512D5BD8FBFD47A93E4F68238C794D(L_2, NULL);
 		return L_3;
 	}
 
@@ -20963,7 +21051,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GameObjectEventUnit_1_get_hookName_
 	{
 		// protected virtual string hookName => throw new InvalidImplementationException($"Missing event hook for '{this}'.");
 		String_t* L_0;
-		L_0 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral47FF6BDF0CDE6B54E8E8B59F793070BE815043E4)), (RuntimeObject*)__this, NULL);
+		L_0 = String_Format_m8C122B26BC5AA10E2550AECA16E57DAE10F07E30(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral47FF6BDF0CDE6B54E8E8B59F793070BE815043E4)), (RuntimeObject*)__this, NULL);
 		InvalidImplementationException_t0ED7E88DE48F87CA15C0BC04F7B63DFEEF7EF9D6* L_1 = (InvalidImplementationException_t0ED7E88DE48F87CA15C0BC04F7B63DFEEF7EF9D6*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidImplementationException_t0ED7E88DE48F87CA15C0BC04F7B63DFEEF7EF9D6_il2cpp_TypeInfo_var)));
 		NullCheck(L_1);
 		InvalidImplementationException__ctor_mB7F77B15C275D57A96CA4CB448B481A5734E50A2(L_1, L_0, NULL);
@@ -20976,7 +21064,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObjectEventUnit_1_UpdateTarget_m320B
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m39858CB706855DD83B39A1175A439C4053F2C371_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m0F23E4D996A93E4F115C4CC3BAF7C3AB91971A46_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -21003,7 +21091,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObjectEventUnit_1_UpdateTarget_m320B
 		GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* L_6;
 		L_6 = GraphStack_ToReference_m0793568212CA2965C7D185AED3AD8D90BE34E69B(L_5, NULL);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
-		L_7 = Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m39858CB706855DD83B39A1175A439C4053F2C371(L_4, L_6, Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m39858CB706855DD83B39A1175A439C4053F2C371_RuntimeMethod_var);
+		L_7 = Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m0F23E4D996A93E4F115C4CC3BAF7C3AB91971A46(L_4, L_6, Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m0F23E4D996A93E4F115C4CC3BAF7C3AB91971A46_RuntimeMethod_var);
 		V_2 = L_7;
 		// if (newTarget != data.target)
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = V_2;
@@ -21012,7 +21100,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObjectEventUnit_1_UpdateTarget_m320B
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_9->___target_4;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_11;
-		L_11 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_10, NULL);
+		L_11 = Object_op_Inequality_m4D656395C27694A7F33F5AA8DE80A7AAF9E20BA7((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_10, NULL);
 		if (!L_11)
 		{
 			goto IL_004b;
@@ -21100,7 +21188,7 @@ IL_000a:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_4->___target_4;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
-		L_6 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		L_6 = Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_6)
 		{
 			goto IL_0021;
@@ -21116,7 +21204,7 @@ IL_0021:
 		// if (UnityThread.allowsAPI)
 		il2cpp_codegen_runtime_class_init_inline(UnityThread_tF9B353D2BD29AE999AC8B11E5FF55A3EDD6F783E_il2cpp_TypeInfo_var);
 		bool L_7;
-		L_7 = UnityThread_get_allowsAPI_mD5F65F1DD7EB660A36B87BAAC6F346FC41B7EADD(NULL);
+		L_7 = UnityThread_get_allowsAPI_m3658EA6A7B6EFE896CE7AEF4222EE361162BB539(NULL);
 		if (!L_7)
 		{
 			goto IL_0047;
@@ -21128,7 +21216,7 @@ IL_0021:
 		L_8 = VirtualFuncInvoker0< Type_t* >::Invoke(90 /* System.Type Unity.VisualScripting.GameObjectEventUnit`1<System.Int32>::get_MessageListenerType() */, __this);
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		bool L_9;
-		L_9 = Type_op_Inequality_m83209C7BB3C05DFBEA3B6199B0BEFE8037301172(L_8, (Type_t*)NULL, NULL);
+		L_9 = Type_op_Inequality_m71AAC993EBBDBA44EE73847D68F71C70AF7AD1D5(L_8, (Type_t*)NULL, NULL);
 		if (!L_9)
 		{
 			goto IL_0047;
@@ -21141,7 +21229,7 @@ IL_0021:
 		Data_t031525ECAD23108FFD2E2A7FC53A25106B71FDBA* L_11 = V_0;
 		NullCheck(L_11);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_11->___target_4;
-		MessageListener_AddTo_mE46D2706C2DCF33A17A3464465B1B41B50776A0A(L_10, L_12, NULL);
+		MessageListener_AddTo_m28922B7818E513203E6DD7AB129A1F573ECFB02B(L_10, L_12, NULL);
 	}
 
 IL_0047:
@@ -21282,7 +21370,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EventHook_t1C9E2570B55940C342214BACB5E9EC889A
 		String_t* L_2;
 		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(91 /* System.String Unity.VisualScripting.GameObjectEventUnit`1<System.Object>::get_hookName() */, __this);
 		EventHook_t1C9E2570B55940C342214BACB5E9EC889A113157 L_3;
-		L_3 = EventHook_op_Implicit_m93EAC8789A8E846D55B193CB46237A48C54693FA(L_2, NULL);
+		L_3 = EventHook_op_Implicit_m71EAD85C52512D5BD8FBFD47A93E4F68238C794D(L_2, NULL);
 		return L_3;
 	}
 
@@ -21312,7 +21400,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GameObjectEventUnit_1_get_hookName_
 	{
 		// protected virtual string hookName => throw new InvalidImplementationException($"Missing event hook for '{this}'.");
 		String_t* L_0;
-		L_0 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral47FF6BDF0CDE6B54E8E8B59F793070BE815043E4)), (RuntimeObject*)__this, NULL);
+		L_0 = String_Format_m8C122B26BC5AA10E2550AECA16E57DAE10F07E30(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral47FF6BDF0CDE6B54E8E8B59F793070BE815043E4)), (RuntimeObject*)__this, NULL);
 		InvalidImplementationException_t0ED7E88DE48F87CA15C0BC04F7B63DFEEF7EF9D6* L_1 = (InvalidImplementationException_t0ED7E88DE48F87CA15C0BC04F7B63DFEEF7EF9D6*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidImplementationException_t0ED7E88DE48F87CA15C0BC04F7B63DFEEF7EF9D6_il2cpp_TypeInfo_var)));
 		NullCheck(L_1);
 		InvalidImplementationException__ctor_mB7F77B15C275D57A96CA4CB448B481A5734E50A2(L_1, L_0, NULL);
@@ -21325,7 +21413,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObjectEventUnit_1_UpdateTarget_m66D9
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m39858CB706855DD83B39A1175A439C4053F2C371_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m0F23E4D996A93E4F115C4CC3BAF7C3AB91971A46_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -21352,7 +21440,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObjectEventUnit_1_UpdateTarget_m66D9
 		GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* L_6;
 		L_6 = GraphStack_ToReference_m0793568212CA2965C7D185AED3AD8D90BE34E69B(L_5, NULL);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
-		L_7 = Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m39858CB706855DD83B39A1175A439C4053F2C371(L_4, L_6, Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m39858CB706855DD83B39A1175A439C4053F2C371_RuntimeMethod_var);
+		L_7 = Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m0F23E4D996A93E4F115C4CC3BAF7C3AB91971A46(L_4, L_6, Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m0F23E4D996A93E4F115C4CC3BAF7C3AB91971A46_RuntimeMethod_var);
 		V_2 = L_7;
 		// if (newTarget != data.target)
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = V_2;
@@ -21361,7 +21449,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObjectEventUnit_1_UpdateTarget_m66D9
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_9->___target_4;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_11;
-		L_11 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_10, NULL);
+		L_11 = Object_op_Inequality_m4D656395C27694A7F33F5AA8DE80A7AAF9E20BA7((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_10, NULL);
 		if (!L_11)
 		{
 			goto IL_004b;
@@ -21449,7 +21537,7 @@ IL_000a:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_4->___target_4;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
-		L_6 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		L_6 = Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_6)
 		{
 			goto IL_0021;
@@ -21465,7 +21553,7 @@ IL_0021:
 		// if (UnityThread.allowsAPI)
 		il2cpp_codegen_runtime_class_init_inline(UnityThread_tF9B353D2BD29AE999AC8B11E5FF55A3EDD6F783E_il2cpp_TypeInfo_var);
 		bool L_7;
-		L_7 = UnityThread_get_allowsAPI_mD5F65F1DD7EB660A36B87BAAC6F346FC41B7EADD(NULL);
+		L_7 = UnityThread_get_allowsAPI_m3658EA6A7B6EFE896CE7AEF4222EE361162BB539(NULL);
 		if (!L_7)
 		{
 			goto IL_0047;
@@ -21477,7 +21565,7 @@ IL_0021:
 		L_8 = VirtualFuncInvoker0< Type_t* >::Invoke(90 /* System.Type Unity.VisualScripting.GameObjectEventUnit`1<System.Object>::get_MessageListenerType() */, __this);
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		bool L_9;
-		L_9 = Type_op_Inequality_m83209C7BB3C05DFBEA3B6199B0BEFE8037301172(L_8, (Type_t*)NULL, NULL);
+		L_9 = Type_op_Inequality_m71AAC993EBBDBA44EE73847D68F71C70AF7AD1D5(L_8, (Type_t*)NULL, NULL);
 		if (!L_9)
 		{
 			goto IL_0047;
@@ -21490,7 +21578,7 @@ IL_0021:
 		Data_t400E2EFC7A601B438B8E6349FDA3CAE4012B20BD* L_11 = V_0;
 		NullCheck(L_11);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_11->___target_4;
-		MessageListener_AddTo_mE46D2706C2DCF33A17A3464465B1B41B50776A0A(L_10, L_12, NULL);
+		MessageListener_AddTo_m28922B7818E513203E6DD7AB129A1F573ECFB02B(L_10, L_12, NULL);
 	}
 
 IL_0047:
@@ -21631,7 +21719,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EventHook_t1C9E2570B55940C342214BACB5E9EC889A
 		String_t* L_2;
 		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(91 /* System.String Unity.VisualScripting.GameObjectEventUnit`1<System.Single>::get_hookName() */, __this);
 		EventHook_t1C9E2570B55940C342214BACB5E9EC889A113157 L_3;
-		L_3 = EventHook_op_Implicit_m93EAC8789A8E846D55B193CB46237A48C54693FA(L_2, NULL);
+		L_3 = EventHook_op_Implicit_m71EAD85C52512D5BD8FBFD47A93E4F68238C794D(L_2, NULL);
 		return L_3;
 	}
 
@@ -21661,7 +21749,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GameObjectEventUnit_1_get_hookName_
 	{
 		// protected virtual string hookName => throw new InvalidImplementationException($"Missing event hook for '{this}'.");
 		String_t* L_0;
-		L_0 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral47FF6BDF0CDE6B54E8E8B59F793070BE815043E4)), (RuntimeObject*)__this, NULL);
+		L_0 = String_Format_m8C122B26BC5AA10E2550AECA16E57DAE10F07E30(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral47FF6BDF0CDE6B54E8E8B59F793070BE815043E4)), (RuntimeObject*)__this, NULL);
 		InvalidImplementationException_t0ED7E88DE48F87CA15C0BC04F7B63DFEEF7EF9D6* L_1 = (InvalidImplementationException_t0ED7E88DE48F87CA15C0BC04F7B63DFEEF7EF9D6*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidImplementationException_t0ED7E88DE48F87CA15C0BC04F7B63DFEEF7EF9D6_il2cpp_TypeInfo_var)));
 		NullCheck(L_1);
 		InvalidImplementationException__ctor_mB7F77B15C275D57A96CA4CB448B481A5734E50A2(L_1, L_0, NULL);
@@ -21674,7 +21762,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObjectEventUnit_1_UpdateTarget_m14A6
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m39858CB706855DD83B39A1175A439C4053F2C371_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m0F23E4D996A93E4F115C4CC3BAF7C3AB91971A46_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -21701,7 +21789,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObjectEventUnit_1_UpdateTarget_m14A6
 		GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* L_6;
 		L_6 = GraphStack_ToReference_m0793568212CA2965C7D185AED3AD8D90BE34E69B(L_5, NULL);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
-		L_7 = Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m39858CB706855DD83B39A1175A439C4053F2C371(L_4, L_6, Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m39858CB706855DD83B39A1175A439C4053F2C371_RuntimeMethod_var);
+		L_7 = Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m0F23E4D996A93E4F115C4CC3BAF7C3AB91971A46(L_4, L_6, Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m0F23E4D996A93E4F115C4CC3BAF7C3AB91971A46_RuntimeMethod_var);
 		V_2 = L_7;
 		// if (newTarget != data.target)
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = V_2;
@@ -21710,7 +21798,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObjectEventUnit_1_UpdateTarget_m14A6
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_9->___target_4;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_11;
-		L_11 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_10, NULL);
+		L_11 = Object_op_Inequality_m4D656395C27694A7F33F5AA8DE80A7AAF9E20BA7((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_10, NULL);
 		if (!L_11)
 		{
 			goto IL_004b;
@@ -21798,7 +21886,7 @@ IL_000a:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_4->___target_4;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
-		L_6 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		L_6 = Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_6)
 		{
 			goto IL_0021;
@@ -21814,7 +21902,7 @@ IL_0021:
 		// if (UnityThread.allowsAPI)
 		il2cpp_codegen_runtime_class_init_inline(UnityThread_tF9B353D2BD29AE999AC8B11E5FF55A3EDD6F783E_il2cpp_TypeInfo_var);
 		bool L_7;
-		L_7 = UnityThread_get_allowsAPI_mD5F65F1DD7EB660A36B87BAAC6F346FC41B7EADD(NULL);
+		L_7 = UnityThread_get_allowsAPI_m3658EA6A7B6EFE896CE7AEF4222EE361162BB539(NULL);
 		if (!L_7)
 		{
 			goto IL_0047;
@@ -21826,7 +21914,7 @@ IL_0021:
 		L_8 = VirtualFuncInvoker0< Type_t* >::Invoke(90 /* System.Type Unity.VisualScripting.GameObjectEventUnit`1<System.Single>::get_MessageListenerType() */, __this);
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		bool L_9;
-		L_9 = Type_op_Inequality_m83209C7BB3C05DFBEA3B6199B0BEFE8037301172(L_8, (Type_t*)NULL, NULL);
+		L_9 = Type_op_Inequality_m71AAC993EBBDBA44EE73847D68F71C70AF7AD1D5(L_8, (Type_t*)NULL, NULL);
 		if (!L_9)
 		{
 			goto IL_0047;
@@ -21839,7 +21927,7 @@ IL_0021:
 		Data_t349B26717605DC4F9D2B1F5B6401E3DB2F21626B* L_11 = V_0;
 		NullCheck(L_11);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_11->___target_4;
-		MessageListener_AddTo_mE46D2706C2DCF33A17A3464465B1B41B50776A0A(L_10, L_12, NULL);
+		MessageListener_AddTo_m28922B7818E513203E6DD7AB129A1F573ECFB02B(L_10, L_12, NULL);
 	}
 
 IL_0047:
@@ -21980,7 +22068,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EventHook_t1C9E2570B55940C342214BACB5E9EC889A
 		String_t* L_2;
 		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(91 /* System.String Unity.VisualScripting.GameObjectEventUnit`1<UnityEngine.Vector2>::get_hookName() */, __this);
 		EventHook_t1C9E2570B55940C342214BACB5E9EC889A113157 L_3;
-		L_3 = EventHook_op_Implicit_m93EAC8789A8E846D55B193CB46237A48C54693FA(L_2, NULL);
+		L_3 = EventHook_op_Implicit_m71EAD85C52512D5BD8FBFD47A93E4F68238C794D(L_2, NULL);
 		return L_3;
 	}
 
@@ -22010,7 +22098,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GameObjectEventUnit_1_get_hookName_
 	{
 		// protected virtual string hookName => throw new InvalidImplementationException($"Missing event hook for '{this}'.");
 		String_t* L_0;
-		L_0 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral47FF6BDF0CDE6B54E8E8B59F793070BE815043E4)), (RuntimeObject*)__this, NULL);
+		L_0 = String_Format_m8C122B26BC5AA10E2550AECA16E57DAE10F07E30(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral47FF6BDF0CDE6B54E8E8B59F793070BE815043E4)), (RuntimeObject*)__this, NULL);
 		InvalidImplementationException_t0ED7E88DE48F87CA15C0BC04F7B63DFEEF7EF9D6* L_1 = (InvalidImplementationException_t0ED7E88DE48F87CA15C0BC04F7B63DFEEF7EF9D6*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidImplementationException_t0ED7E88DE48F87CA15C0BC04F7B63DFEEF7EF9D6_il2cpp_TypeInfo_var)));
 		NullCheck(L_1);
 		InvalidImplementationException__ctor_mB7F77B15C275D57A96CA4CB448B481A5734E50A2(L_1, L_0, NULL);
@@ -22023,7 +22111,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObjectEventUnit_1_UpdateTarget_mA930
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m39858CB706855DD83B39A1175A439C4053F2C371_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m0F23E4D996A93E4F115C4CC3BAF7C3AB91971A46_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -22050,7 +22138,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObjectEventUnit_1_UpdateTarget_mA930
 		GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* L_6;
 		L_6 = GraphStack_ToReference_m0793568212CA2965C7D185AED3AD8D90BE34E69B(L_5, NULL);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
-		L_7 = Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m39858CB706855DD83B39A1175A439C4053F2C371(L_4, L_6, Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m39858CB706855DD83B39A1175A439C4053F2C371_RuntimeMethod_var);
+		L_7 = Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m0F23E4D996A93E4F115C4CC3BAF7C3AB91971A46(L_4, L_6, Flow_FetchValue_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m0F23E4D996A93E4F115C4CC3BAF7C3AB91971A46_RuntimeMethod_var);
 		V_2 = L_7;
 		// if (newTarget != data.target)
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = V_2;
@@ -22059,7 +22147,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObjectEventUnit_1_UpdateTarget_mA930
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_9->___target_4;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_11;
-		L_11 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_10, NULL);
+		L_11 = Object_op_Inequality_m4D656395C27694A7F33F5AA8DE80A7AAF9E20BA7((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_10, NULL);
 		if (!L_11)
 		{
 			goto IL_004b;
@@ -22147,7 +22235,7 @@ IL_000a:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_4->___target_4;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
-		L_6 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		L_6 = Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_6)
 		{
 			goto IL_0021;
@@ -22163,7 +22251,7 @@ IL_0021:
 		// if (UnityThread.allowsAPI)
 		il2cpp_codegen_runtime_class_init_inline(UnityThread_tF9B353D2BD29AE999AC8B11E5FF55A3EDD6F783E_il2cpp_TypeInfo_var);
 		bool L_7;
-		L_7 = UnityThread_get_allowsAPI_mD5F65F1DD7EB660A36B87BAAC6F346FC41B7EADD(NULL);
+		L_7 = UnityThread_get_allowsAPI_m3658EA6A7B6EFE896CE7AEF4222EE361162BB539(NULL);
 		if (!L_7)
 		{
 			goto IL_0047;
@@ -22175,7 +22263,7 @@ IL_0021:
 		L_8 = VirtualFuncInvoker0< Type_t* >::Invoke(90 /* System.Type Unity.VisualScripting.GameObjectEventUnit`1<UnityEngine.Vector2>::get_MessageListenerType() */, __this);
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		bool L_9;
-		L_9 = Type_op_Inequality_m83209C7BB3C05DFBEA3B6199B0BEFE8037301172(L_8, (Type_t*)NULL, NULL);
+		L_9 = Type_op_Inequality_m71AAC993EBBDBA44EE73847D68F71C70AF7AD1D5(L_8, (Type_t*)NULL, NULL);
 		if (!L_9)
 		{
 			goto IL_0047;
@@ -22188,7 +22276,7 @@ IL_0021:
 		Data_t10A9A379CCA1CB754550186F78092557A005064D* L_11 = V_0;
 		NullCheck(L_11);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_11->___target_4;
-		MessageListener_AddTo_mE46D2706C2DCF33A17A3464465B1B41B50776A0A(L_10, L_12, NULL);
+		MessageListener_AddTo_m28922B7818E513203E6DD7AB129A1F573ECFB02B(L_10, L_12, NULL);
 	}
 
 IL_0047:
@@ -32206,7 +32294,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_mFBD41D5
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // T Unity.VisualScripting.GenericPool`1<System.Object>::New(System.Func`1<T>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GenericPool_1_New_mB5D7E162276F87758C5448AC13EFD031FD51AC44_gshared (Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* ___constructor0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GenericPool_1_New_mC46ACF22D69EBA8C02897566ACA7D923ACFB850C_gshared (Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* ___constructor0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -32240,7 +32328,7 @@ FINALLY_0052:
 				}
 				{
 					RuntimeObject* L_2 = V_0;
-					Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_2, NULL);
+					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_2, NULL);
 				}
 
 IL_005b:
@@ -32253,7 +32341,7 @@ IL_005b:
 		{// begin try (depth: 1)
 			{
 				RuntimeObject* L_3 = V_0;
-				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_3, (&V_1), NULL);
+				Monitor_Enter_m00506757392936AA62DBE2C5FFBEE69EE920C4D4(L_3, (&V_1), NULL);
 				// if (free.Count == 0)
 				il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 0));
 				Stack_1_tAD790A47551563636908E21E4F08C54C0C323EB5* L_4 = ((GenericPool_1_tE993330FB8B22E994404F3D12DF7BFD551B0503B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 0)))->___free_1;
@@ -32316,7 +32404,7 @@ IL_005c:
 	}
 }
 // System.Void Unity.VisualScripting.GenericPool`1<System.Object>::Free(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericPool_1_Free_m788384E2D8174E5C4B2166C05C18D4FBA11200A0_gshared (RuntimeObject* ___item0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericPool_1_Free_m220619CD37FDD4873DD3A411838DE660C6BD1F28_gshared (RuntimeObject* ___item0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -32348,7 +32436,7 @@ FINALLY_0045:
 				}
 				{
 					RuntimeObject* L_2 = V_0;
-					Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_2, NULL);
+					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_2, NULL);
 				}
 
 IL_004e:
@@ -32361,7 +32449,7 @@ IL_004e:
 		{// begin try (depth: 1)
 			{
 				RuntimeObject* L_3 = V_0;
-				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_3, (&V_1), NULL);
+				Monitor_Enter_m00506757392936AA62DBE2C5FFBEE69EE920C4D4(L_3, (&V_1), NULL);
 				// if (!busy.Remove(item))
 				il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 0));
 				HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* L_4 = ((GenericPool_1_tE993330FB8B22E994404F3D12DF7BFD551B0503B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 0)))->___busy_2;
@@ -32379,7 +32467,7 @@ IL_004e:
 				ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_7 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
 				NullCheck(L_7);
 				ArgumentException__ctor_m8F9D40CE19D19B698A70F9A258640EB52DB39B62(L_7, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralE99BACA7A5F143853F97A502017B7A017B793C9F)), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral1426EAC460EF593AB4BA506E82CCB1FF95390521)), NULL);
-				IL2CPP_RAISE_MANAGED_EXCEPTION(L_7, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&GenericPool_1_Free_m788384E2D8174E5C4B2166C05C18D4FBA11200A0_RuntimeMethod_var)));
+				IL2CPP_RAISE_MANAGED_EXCEPTION(L_7, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&GenericPool_1_Free_m220619CD37FDD4873DD3A411838DE660C6BD1F28_RuntimeMethod_var)));
 			}
 
 IL_002d_1:
@@ -32411,7 +32499,7 @@ IL_004f:
 	}
 }
 // System.Void Unity.VisualScripting.GenericPool`1<System.Object>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericPool_1__cctor_m1BC16272F723119057C19D754092B125197013D4_gshared (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericPool_1__cctor_m504318815DB5B51BF4C45B23E38C477200B4133E_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)

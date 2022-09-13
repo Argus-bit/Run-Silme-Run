@@ -33093,7 +33093,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectEqualityComparer_1__ctor_m7A747A86
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Collections.Generic.List`1<T> UnityEngine.UIElements.ObjectListPool`1<System.Object>::Get()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ObjectListPool_1_Get_m3A9A423A26716E05B98EB56FAA2457A0A04225B6_gshared (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ObjectListPool_1_Get_m061CEA9810BB6E3F728634F30D714A4210EBCDA8_gshared (const RuntimeMethod* method) 
 {
 	List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* V_0 = NULL;
 	{
@@ -33113,7 +33113,7 @@ IL_000e:
 	}
 }
 // System.Void UnityEngine.UIElements.ObjectListPool`1<System.Object>::Release(System.Collections.Generic.List`1<T>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectListPool_1_Release_m7E273E47FA30CE9ED944A56175AF29C7A25D3A17_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ___elements0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectListPool_1_Release_m2474F73C76EEEE0960C24590FA4266363147A800_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ___elements0, const RuntimeMethod* method) 
 {
 	{
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = ___elements0;
@@ -33128,7 +33128,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectListPool_1_Release_m7E273E47FA30CE
 	}
 }
 // System.Void UnityEngine.UIElements.ObjectListPool`1<System.Object>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectListPool_1__cctor_m4C36D4B02157B9D53FA9D8E8C9FEA4DD8E30D4A9_gshared (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectListPool_1__cctor_mB4ABA8295EE8CF973ABD159504405FADF9751610_gshared (const RuntimeMethod* method) 
 {
 	{
 		ObjectPool_1_t82EA84452A4B2F080EF895D9F717E99CBE33B919* L_0 = (ObjectPool_1_t82EA84452A4B2F080EF895D9F717E99CBE33B919*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));

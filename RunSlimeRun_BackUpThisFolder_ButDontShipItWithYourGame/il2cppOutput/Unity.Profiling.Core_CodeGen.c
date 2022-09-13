@@ -48,19 +48,19 @@ extern void IsUnmanagedAttribute__ctor_mC550690DDF4A9CAB011A3631E63E8C7E0A716753
 // 0x00000020 System.Void Unity.Profiling.ProfilerMarker`3/AutoScope::.ctor(Unity.Profiling.ProfilerMarker`3<TP1,TP2,TP3>,TP1,TP2,TP3)
 // 0x00000021 System.Void Unity.Profiling.ProfilerMarker`3/AutoScope::Dispose()
 // 0x00000022 System.Void Unity.Profiling.ProfilerMarkerExtension::Begin(Unity.Profiling.ProfilerMarker,System.Int32)
-extern void ProfilerMarkerExtension_Begin_m3023D2EEDDAC3DF4525CDD3E68CBECEDB0B338A7 (void);
+extern void ProfilerMarkerExtension_Begin_mDCC1B359C3615A7DDEED3E12222B809168893BBF (void);
 // 0x00000023 System.Void Unity.Profiling.ProfilerMarkerExtension::Begin(Unity.Profiling.ProfilerMarker,System.UInt32)
-extern void ProfilerMarkerExtension_Begin_mDADCC5976AE21FA2B1D4A7CA096514EE6489A6DB (void);
+extern void ProfilerMarkerExtension_Begin_mE5BD55BC03722A29E714AD4C4695F09DA30F3B11 (void);
 // 0x00000024 System.Void Unity.Profiling.ProfilerMarkerExtension::Begin(Unity.Profiling.ProfilerMarker,System.Int64)
-extern void ProfilerMarkerExtension_Begin_m088F2A3A6CF7B9F4882A8C5CC26DC5FAE350639D (void);
+extern void ProfilerMarkerExtension_Begin_mE766D4DFBD0BD13E636E972F75D280CA2FD1FE9C (void);
 // 0x00000025 System.Void Unity.Profiling.ProfilerMarkerExtension::Begin(Unity.Profiling.ProfilerMarker,System.UInt64)
-extern void ProfilerMarkerExtension_Begin_mB9E46B6A68217096FA1B093657969D5D53C0ED4B (void);
+extern void ProfilerMarkerExtension_Begin_m38966B433242A8EE83DEF9A7EF8BF881DD25B16F (void);
 // 0x00000026 System.Void Unity.Profiling.ProfilerMarkerExtension::Begin(Unity.Profiling.ProfilerMarker,System.Single)
-extern void ProfilerMarkerExtension_Begin_m899B1C6F7DD4BE71A5CA0D3C8643D6EE64361ED6 (void);
+extern void ProfilerMarkerExtension_Begin_m9424889129E54C28874F749B17355B629AA25331 (void);
 // 0x00000027 System.Void Unity.Profiling.ProfilerMarkerExtension::Begin(Unity.Profiling.ProfilerMarker,System.Double)
-extern void ProfilerMarkerExtension_Begin_mDEE72C4D6E4497C10542BC16154BA05BD136FC8A (void);
+extern void ProfilerMarkerExtension_Begin_m40033F2AC2CEA72FB531B4B2988CB1DE6B099BF1 (void);
 // 0x00000028 System.Void Unity.Profiling.ProfilerMarkerExtension::Begin(Unity.Profiling.ProfilerMarker,System.String)
-extern void ProfilerMarkerExtension_Begin_mEA0E2F2019E9A1E43B86A3E71A2EA3BE40A16240 (void);
+extern void ProfilerMarkerExtension_Begin_m3662B8F81EC96AD6E97D9221748ED348DED00E51 (void);
 // 0x00000029 System.Byte Unity.Profiling.ProfilerUtility::GetProfilerMarkerDataType()
 static Il2CppMethodPointer s_methodPointers[41] = 
 {
@@ -97,13 +97,13 @@ static Il2CppMethodPointer s_methodPointers[41] =
 	NULL,
 	NULL,
 	NULL,
-	ProfilerMarkerExtension_Begin_m3023D2EEDDAC3DF4525CDD3E68CBECEDB0B338A7,
-	ProfilerMarkerExtension_Begin_mDADCC5976AE21FA2B1D4A7CA096514EE6489A6DB,
-	ProfilerMarkerExtension_Begin_m088F2A3A6CF7B9F4882A8C5CC26DC5FAE350639D,
-	ProfilerMarkerExtension_Begin_mB9E46B6A68217096FA1B093657969D5D53C0ED4B,
-	ProfilerMarkerExtension_Begin_m899B1C6F7DD4BE71A5CA0D3C8643D6EE64361ED6,
-	ProfilerMarkerExtension_Begin_mDEE72C4D6E4497C10542BC16154BA05BD136FC8A,
-	ProfilerMarkerExtension_Begin_mEA0E2F2019E9A1E43B86A3E71A2EA3BE40A16240,
+	ProfilerMarkerExtension_Begin_mDCC1B359C3615A7DDEED3E12222B809168893BBF,
+	ProfilerMarkerExtension_Begin_mE5BD55BC03722A29E714AD4C4695F09DA30F3B11,
+	ProfilerMarkerExtension_Begin_mE766D4DFBD0BD13E636E972F75D280CA2FD1FE9C,
+	ProfilerMarkerExtension_Begin_m38966B433242A8EE83DEF9A7EF8BF881DD25B16F,
+	ProfilerMarkerExtension_Begin_m9424889129E54C28874F749B17355B629AA25331,
+	ProfilerMarkerExtension_Begin_m40033F2AC2CEA72FB531B4B2988CB1DE6B099BF1,
+	ProfilerMarkerExtension_Begin_m3662B8F81EC96AD6E97D9221748ED348DED00E51,
 	NULL,
 };
 static const int32_t s_InvokerIndices[41] = 
@@ -141,23 +141,23 @@ static const int32_t s_InvokerIndices[41] =
 	0,
 	0,
 	0,
-	5685,
-	5689,
+	5682,
 	5686,
-	5690,
-	5688,
-	5684,
+	5683,
 	5687,
+	5685,
+	5681,
+	5684,
 	0,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[1] = 
 {
 	{ 0x06000029, { 0, 1 } },
 };
-extern const uint32_t g_rgctx_T_t1CDECE2708A360FFD06302D16DA301344EAA4938;
+extern const uint32_t g_rgctx_T_t0BD15762296CED362AA1BCEA6C926450F1CBE73A;
 static const Il2CppRGCTXDefinition s_rgctxValues[1] = 
 {
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_t1CDECE2708A360FFD06302D16DA301344EAA4938 },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_t0BD15762296CED362AA1BCEA6C926450F1CBE73A },
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_Profiling_Core_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_Profiling_Core_CodeGenModule = 
