@@ -419,7 +419,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.990566, g: 0.90735906, b: 0.18222679, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -755,7 +755,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6.79
+  orthographic size: 8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2826,7 +2826,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 794515405584056137, guid: b514879d9f80fe24994b311afd030a95, type: 3}
       propertyPath: m_MatchWidthOrHeight
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 794515405584056137, guid: b514879d9f80fe24994b311afd030a95, type: 3}
       propertyPath: m_ReferenceResolution.x
@@ -3366,6 +3366,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6999536735593034242, guid: fe22d4281d6553b4a929a211ffbd1380, type: 3}
+      propertyPath: Walll
+      value: -2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6999536735593034242, guid: fe22d4281d6553b4a929a211ffbd1380, type: 3}
+      propertyPath: Wallr
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 6999536735593034243, guid: fe22d4281d6553b4a929a211ffbd1380, type: 3}
       propertyPath: spawTime
       value: 0.5
@@ -3453,6 +3461,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8428945751760160047, guid: a40c71b7d26dd254d9c7529b6fbe1539, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8428945751760160047, guid: a40c71b7d26dd254d9c7529b6fbe1539, type: 3}
+      propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

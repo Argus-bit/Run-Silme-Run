@@ -5,7 +5,7 @@ using UnityEngine;
 public class PauseController : MonoBehaviour
 {
     void Update()
-    {
+    {/*
         if (Input.GetKeyDown("Escape"))
         {
             GameStates currentGameState = GameStatesManager.Instance.CurrentGameState;
@@ -14,6 +14,6 @@ public class PauseController : MonoBehaviour
                 : GameStates.Gameplay;
 
             GameStatesManager.Instance.SetState(newGameState);
-        }
+        }*/
     }
 }
