@@ -260,7 +260,7 @@ GameObject:
   - component: {fileID: 630948692}
   - component: {fileID: 630948693}
   m_Layer: 0
-  m_Name: Arcatlogog
+  m_Name: FrontLogo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -561,7 +561,7 @@ GameObject:
   - component: {fileID: 971310971}
   - component: {fileID: 971310972}
   m_Layer: 0
-  m_Name: bglogo
+  m_Name: BackGRed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -645,7 +645,7 @@ GameObject:
   - component: {fileID: 1199555116}
   - component: {fileID: 1199555117}
   m_Layer: 0
-  m_Name: Arcatlogogo
+  m_Name: BackLogo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -796,7 +796,7 @@ GameObject:
   - component: {fileID: 1891992255}
   - component: {fileID: 1891992256}
   m_Layer: 0
-  m_Name: Arcatlogoname
+  m_Name: NameLogo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

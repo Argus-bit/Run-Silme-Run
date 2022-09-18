@@ -314,7 +314,6 @@ UnityEngine.Event::set_modifiers
 UnityEngine.Event::set_mousePosition_Injected
 UnityEngine.Event::set_type
 UnityEngine.Event::get_modifiers
-UnityEngine.Event::GetTypeForControl
 UnityEngine.Event::get_rawType
 UnityEngine.Event::get_type
 UnityEngine.Event::get_keyCode
@@ -343,7 +342,6 @@ UnityEngine.GameObject::CompareTag
 UnityEngine.GameObject::get_activeInHierarchy
 UnityEngine.GameObject::get_activeSelf
 UnityEngine.GameObject::get_layer
-UnityEngine.GameObject::get_tag
 UnityEngine.GameObject::GetComponentFastPath
 UnityEngine.GameObject::Internal_CreateGameObject
 UnityEngine.GameObject::SendMessage
@@ -356,6 +354,7 @@ UnityEngine.GameObject::GetComponentInChildren
 UnityEngine.GameObject::GetComponentInParent
 UnityEngine.GameObject::Internal_AddComponentWithType
 UnityEngine.GameObject::TryGetComponentInternal
+UnityEngine.GameObject::FindGameObjectsWithTag
 UnityEngine.GameObject::get_transform
 UnityEngine.GL::Begin
 UnityEngine.GL::End
@@ -481,7 +480,6 @@ UnityEngine.Input::GetButton
 UnityEngine.Input::GetButtonDown
 UnityEngine.Input::GetButtonUp
 UnityEngine.Input::GetKeyDownInt
-UnityEngine.Input::GetKeyDownString
 UnityEngine.Input::GetKeyInt
 UnityEngine.Input::GetKeyUpInt
 UnityEngine.Input::GetMouseButton
@@ -717,7 +715,6 @@ UnityEngine.Resources::GetBuiltinResource
 UnityEngine.ResourcesAPIInternal::Load
 UnityEngine.ResourcesAPIInternal::FindShaderByName
 UnityEngine.Rigidbody::AddForce_Injected
-UnityEngine.Rigidbody2D::AddForce_Injected
 UnityEngine.Rigidbody2D::MovePosition_Injected
 UnityEngine.Rigidbody2D::get_velocity_Injected
 UnityEngine.Rigidbody2D::set_velocity_Injected
@@ -868,7 +865,6 @@ UnityEngine.Transform::set_localPosition_Injected
 UnityEngine.Transform::set_localRotation_Injected
 UnityEngine.Transform::set_localScale_Injected
 UnityEngine.Transform::set_position_Injected
-UnityEngine.Transform::set_rotation_Injected
 UnityEngine.Transform::GetChild
 UnityEngine.Transform::GetParent
 UnityEngine.U2D.SpriteAtlas::CanBindTo

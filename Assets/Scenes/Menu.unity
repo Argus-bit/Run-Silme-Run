@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 105393715}
   - component: {fileID: 105393716}
   m_Layer: 0
-  m_Name: Interrogation 1
+  m_Name: Interrogation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -369,7 +369,7 @@ GameObject:
   - component: {fileID: 1294018056}
   - component: {fileID: 1294018055}
   m_Layer: 0
-  m_Name: SpriteMenu
+  m_Name: Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -457,7 +457,7 @@ GameObject:
   - component: {fileID: 1346661288}
   - component: {fileID: 1346661287}
   m_Layer: 0
-  m_Name: BG
+  m_Name: BgParallax
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

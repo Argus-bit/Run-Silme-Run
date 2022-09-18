@@ -2426,18 +2426,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Rect_Contains_mAB270D6B7E3B0009A50D142C569D63E8FE59F48B (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___point0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.GUIStyle::Draw(UnityEngine.Rect,UnityEngine.GUIContent,System.Int32,System.Boolean,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GUIStyle_Draw_mACFC9CE57BD530BB6A9592149DD95108A8014406 (GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580* __this, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___position0, GUIContent_t15E48D4BEB1E6B6044F7DEB5E350800F511C2ED2* ___content1, int32_t ___controlID2, bool ___on3, bool ___hover4, const RuntimeMethod* method) ;
-// System.Boolean UnityEngine.GUI::DoRepeatButton(UnityEngine.Rect,UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.FocusType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GUI_DoRepeatButton_mB06A7135FB66D9013F374D52991F5875A674BE8B (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___position0, GUIContent_t15E48D4BEB1E6B6044F7DEB5E350800F511C2ED2* ___content1, GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580* ___style2, int32_t ___focusType3, const RuntimeMethod* method) ;
-// System.Int32 UnityEngine.GUIUtility::GetControlID(System.Int32,UnityEngine.FocusType,UnityEngine.Rect)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GUIUtility_GetControlID_m31512D63055BA28F83B001D4A5861BF5A658D470 (int32_t ___hint0, int32_t ___focusType1, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___rect2, const RuntimeMethod* method) ;
-// UnityEngine.EventType UnityEngine.Event::GetTypeForControl(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Event_GetTypeForControl_mB5AFF2956E61972F0A1246416FCFE1C46F7E64D1 (Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* __this, int32_t ___controlID0, const RuntimeMethod* method) ;
-// System.Void UnityEngine.GUIUtility::set_hotControl(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GUIUtility_set_hotControl_mD5BD81C70BF27E0F313D57AB85DB805616E1EA0E (int32_t ___value0, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Event::Use()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Event_Use_mD77A166D8CFEC4997484C58BC55FEB2D288D3453 (Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* __this, const RuntimeMethod* method) ;
-// System.Int32 UnityEngine.GUIUtility::get_hotControl()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GUIUtility_get_hotControl_mFCA68A9915DD41101C8EBCFA014BB9A88849C58F (const RuntimeMethod* method) ;
 // System.Void UnityEngine.GUIStyle::Draw(UnityEngine.Rect,UnityEngine.GUIContent,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GUIStyle_Draw_m7B978F5F5B576810CF8546142D23FD9990E002D8 (GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580* __this, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___position0, GUIContent_t15E48D4BEB1E6B6044F7DEB5E350800F511C2ED2* ___content1, bool ___isHover2, bool ___isActive3, bool ___on4, bool ___hasKeyboardFocus5, const RuntimeMethod* method) ;
 // System.String UnityEngine.GUIContent::get_tooltip()
@@ -2706,6 +2694,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GUIStyle_AssignRectOffset_m5E532DA046164
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float GUIStyle_Internal_GetLineHeight_m96E85523F929BAB4099D9F106C4A854744F0B364 (intptr_t ___target0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.GUIStyle::Draw(UnityEngine.Rect,UnityEngine.GUIContent,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GUIStyle_Draw_m3DBF8DC58719720455DFC818590D77752BA31008 (GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580* __this, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___position0, GUIContent_t15E48D4BEB1E6B6044F7DEB5E350800F511C2ED2* ___content1, int32_t ___controlId2, bool ___isHover3, bool ___isActive4, bool ___on5, bool ___hasKeyboardFocus6, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.GUIUtility::get_hotControl()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GUIUtility_get_hotControl_mFCA68A9915DD41101C8EBCFA014BB9A88849C58F (const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.GUIUtility::HasKeyFocus(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GUIUtility_HasKeyFocus_mD8E6BB49AB1E5C67087457C55FBD305D636F2DE1 (int32_t ___controlID0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.GUIStyle::Internal_Draw(UnityEngine.Rect,UnityEngine.GUIContent,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
@@ -2734,6 +2724,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GUIUtility_set_compositionCursorPos_Inje
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, const RuntimeMethod* method) ;
 // UnityEngine.Rect UnityEngine.Rect::get_zero()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D Rect_get_zero_mBA92EC8F405CC95A0F1ED05E66D9ABD3A61B7476 (const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.GUIUtility::GetControlID(System.Int32,UnityEngine.FocusType,UnityEngine.Rect)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GUIUtility_GetControlID_m31512D63055BA28F83B001D4A5861BF5A658D470 (int32_t ___hint0, int32_t ___focusType1, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___rect2, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.GUIUtility::Internal_GetHotControl()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GUIUtility_Internal_GetHotControl_m1345BCB841A12CF636990ACE3DBF0DD25FF49CDA (const RuntimeMethod* method) ;
 // System.Void UnityEngine.GUIUtility::Internal_SetHotControl(System.Int32)
@@ -3436,16 +3428,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Event_Internal_Destroy_mD5F39FF02811D670
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Event_Internal_Destroy_mD5F39FF02811D670730B0CAE34DD0796BD1B706D_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Event::Internal_Destroy(System.IntPtr)");
 	_il2cpp_icall_func(___ptr0);
-}
-// UnityEngine.EventType UnityEngine.Event::GetTypeForControl(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Event_GetTypeForControl_mB5AFF2956E61972F0A1246416FCFE1C46F7E64D1 (Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* __this, int32_t ___controlID0, const RuntimeMethod* method) 
-{
-	typedef int32_t (*Event_GetTypeForControl_mB5AFF2956E61972F0A1246416FCFE1C46F7E64D1_ftn) (Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB*, int32_t);
-	static Event_GetTypeForControl_mB5AFF2956E61972F0A1246416FCFE1C46F7E64D1_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Event_GetTypeForControl_mB5AFF2956E61972F0A1246416FCFE1C46F7E64D1_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Event::GetTypeForControl(System.Int32)");
-	int32_t icallRetVal = _il2cpp_icall_func(__this, ___controlID0);
-	return icallRetVal;
 }
 // System.Void UnityEngine.Event::CopyFromPtr(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Event_CopyFromPtr_mC78295EF5861558EC93D3F8691E2A8B50DE84E29 (Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* __this, intptr_t ___ptr0, const RuntimeMethod* method) 
@@ -7714,229 +7696,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GUI_Box_m6FDD3D35ABFC60A8BB13CD87BE67C2B
 IL_0042:
 	{
 		return;
-	}
-}
-// System.Boolean UnityEngine.GUI::RepeatButton(UnityEngine.Rect,System.String,UnityEngine.GUIStyle)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GUI_RepeatButton_m304CD9056AA7AF7505AA2C5914147D1DCF4B53C2 (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___position0, String_t* ___text1, GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580* ___style2, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUIContent_t15E48D4BEB1E6B6044F7DEB5E350800F511C2ED2_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	{
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_0 = ___position0;
-		String_t* L_1 = ___text1;
-		il2cpp_codegen_runtime_class_init_inline(GUIContent_t15E48D4BEB1E6B6044F7DEB5E350800F511C2ED2_il2cpp_TypeInfo_var);
-		GUIContent_t15E48D4BEB1E6B6044F7DEB5E350800F511C2ED2* L_2;
-		L_2 = GUIContent_Temp_m9C3F3629F90F7A1989A26EF5A2D7ED6B1DD17C4F(L_1, NULL);
-		GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580* L_3 = ___style2;
-		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
-		bool L_4;
-		L_4 = GUI_DoRepeatButton_mB06A7135FB66D9013F374D52991F5875A674BE8B(L_0, L_2, L_3, 2, NULL);
-		V_0 = L_4;
-		goto IL_0012;
-	}
-
-IL_0012:
-	{
-		bool L_5 = V_0;
-		return L_5;
-	}
-}
-// System.Boolean UnityEngine.GUI::DoRepeatButton(UnityEngine.Rect,UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.FocusType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GUI_DoRepeatButton_mB06A7135FB66D9013F374D52991F5875A674BE8B (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___position0, GUIContent_t15E48D4BEB1E6B6044F7DEB5E350800F511C2ED2* ___content1, GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580* ___style2, int32_t ___focusType3, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	bool V_3 = false;
-	bool V_4 = false;
-	bool V_5 = false;
-	int32_t G_B15_0 = 0;
-	{
-		GUIUtility_CheckOnGUI_m96F9DAAD5B8B3000EEA28C4A437B5C292F71D245(NULL);
-		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
-		int32_t L_0 = ((GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_StaticFields*)il2cpp_codegen_static_fields_for(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var))->___s_RepeatButtonHash_3;
-		int32_t L_1 = ___focusType3;
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_2 = ___position0;
-		int32_t L_3;
-		L_3 = GUIUtility_GetControlID_m31512D63055BA28F83B001D4A5861BF5A658D470(L_0, L_1, L_2, NULL);
-		V_0 = L_3;
-		Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* L_4;
-		L_4 = Event_get_current_m095DA2D6A43F4E0C0DDBD05B8127DC5FC8093E6B(NULL);
-		int32_t L_5 = V_0;
-		NullCheck(L_4);
-		int32_t L_6;
-		L_6 = Event_GetTypeForControl_mB5AFF2956E61972F0A1246416FCFE1C46F7E64D1(L_4, L_5, NULL);
-		V_2 = L_6;
-		int32_t L_7 = V_2;
-		V_1 = L_7;
-		int32_t L_8 = V_1;
-		if (!L_8)
-		{
-			goto IL_0036;
-		}
-	}
-	{
-		goto IL_0027;
-	}
-
-IL_0027:
-	{
-		int32_t L_9 = V_1;
-		if ((((int32_t)L_9) == ((int32_t)1)))
-		{
-			goto IL_0064;
-		}
-	}
-	{
-		goto IL_002d;
-	}
-
-IL_002d:
-	{
-		int32_t L_10 = V_1;
-		if ((((int32_t)L_10) == ((int32_t)7)))
-		{
-			goto IL_009f;
-		}
-	}
-	{
-		goto IL_00db;
-	}
-
-IL_0036:
-	{
-		Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* L_11;
-		L_11 = Event_get_current_m095DA2D6A43F4E0C0DDBD05B8127DC5FC8093E6B(NULL);
-		NullCheck(L_11);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_12;
-		L_12 = Event_get_mousePosition_mD6D2DF45C75E6FADD415D27D0E93563DED37D9B9(L_11, NULL);
-		bool L_13;
-		L_13 = Rect_Contains_mAB270D6B7E3B0009A50D142C569D63E8FE59F48B((&___position0), L_12, NULL);
-		V_3 = L_13;
-		bool L_14 = V_3;
-		if (!L_14)
-		{
-			goto IL_005f;
-		}
-	}
-	{
-		int32_t L_15 = V_0;
-		GUIUtility_set_hotControl_mD5BD81C70BF27E0F313D57AB85DB805616E1EA0E(L_15, NULL);
-		Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* L_16;
-		L_16 = Event_get_current_m095DA2D6A43F4E0C0DDBD05B8127DC5FC8093E6B(NULL);
-		NullCheck(L_16);
-		Event_Use_mD77A166D8CFEC4997484C58BC55FEB2D288D3453(L_16, NULL);
-	}
-
-IL_005f:
-	{
-		V_4 = (bool)0;
-		goto IL_00e0;
-	}
-
-IL_0064:
-	{
-		int32_t L_17;
-		L_17 = GUIUtility_get_hotControl_mFCA68A9915DD41101C8EBCFA014BB9A88849C58F(NULL);
-		int32_t L_18 = V_0;
-		V_5 = (bool)((((int32_t)L_17) == ((int32_t)L_18))? 1 : 0);
-		bool L_19 = V_5;
-		if (!L_19)
-		{
-			goto IL_009a;
-		}
-	}
-	{
-		GUIUtility_set_hotControl_mD5BD81C70BF27E0F313D57AB85DB805616E1EA0E(0, NULL);
-		Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* L_20;
-		L_20 = Event_get_current_m095DA2D6A43F4E0C0DDBD05B8127DC5FC8093E6B(NULL);
-		NullCheck(L_20);
-		Event_Use_mD77A166D8CFEC4997484C58BC55FEB2D288D3453(L_20, NULL);
-		Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* L_21;
-		L_21 = Event_get_current_m095DA2D6A43F4E0C0DDBD05B8127DC5FC8093E6B(NULL);
-		NullCheck(L_21);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_22;
-		L_22 = Event_get_mousePosition_mD6D2DF45C75E6FADD415D27D0E93563DED37D9B9(L_21, NULL);
-		bool L_23;
-		L_23 = Rect_Contains_mAB270D6B7E3B0009A50D142C569D63E8FE59F48B((&___position0), L_22, NULL);
-		V_4 = L_23;
-		goto IL_00e0;
-	}
-
-IL_009a:
-	{
-		V_4 = (bool)0;
-		goto IL_00e0;
-	}
-
-IL_009f:
-	{
-		GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580* L_24 = ___style2;
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_25 = ___position0;
-		GUIContent_t15E48D4BEB1E6B6044F7DEB5E350800F511C2ED2* L_26 = ___content1;
-		int32_t L_27 = V_0;
-		Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* L_28;
-		L_28 = Event_get_current_m095DA2D6A43F4E0C0DDBD05B8127DC5FC8093E6B(NULL);
-		NullCheck(L_28);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_29;
-		L_29 = Event_get_mousePosition_mD6D2DF45C75E6FADD415D27D0E93563DED37D9B9(L_28, NULL);
-		bool L_30;
-		L_30 = Rect_Contains_mAB270D6B7E3B0009A50D142C569D63E8FE59F48B((&___position0), L_29, NULL);
-		NullCheck(L_24);
-		GUIStyle_Draw_mACFC9CE57BD530BB6A9592149DD95108A8014406(L_24, L_25, L_26, L_27, (bool)0, L_30, NULL);
-		int32_t L_31 = V_0;
-		int32_t L_32;
-		L_32 = GUIUtility_get_hotControl_mFCA68A9915DD41101C8EBCFA014BB9A88849C58F(NULL);
-		if ((!(((uint32_t)L_31) == ((uint32_t)L_32))))
-		{
-			goto IL_00d6;
-		}
-	}
-	{
-		Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* L_33;
-		L_33 = Event_get_current_m095DA2D6A43F4E0C0DDBD05B8127DC5FC8093E6B(NULL);
-		NullCheck(L_33);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_34;
-		L_34 = Event_get_mousePosition_mD6D2DF45C75E6FADD415D27D0E93563DED37D9B9(L_33, NULL);
-		bool L_35;
-		L_35 = Rect_Contains_mAB270D6B7E3B0009A50D142C569D63E8FE59F48B((&___position0), L_34, NULL);
-		G_B15_0 = ((int32_t)(L_35));
-		goto IL_00d7;
-	}
-
-IL_00d6:
-	{
-		G_B15_0 = 0;
-	}
-
-IL_00d7:
-	{
-		V_4 = (bool)G_B15_0;
-		goto IL_00e0;
-	}
-
-IL_00db:
-	{
-		V_4 = (bool)0;
-		goto IL_00e0;
-	}
-
-IL_00e0:
-	{
-		bool L_36 = V_4;
-		return L_36;
 	}
 }
 // System.Void UnityEngine.GUI::DoLabel(UnityEngine.Rect,UnityEngine.GUIContent,UnityEngine.GUIStyle)

@@ -691,10 +691,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_MovePosition_Injected_m7B6D0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_get_velocity_Injected_m980E2BA9FA750BA922DD2F79CEEA1CFF0B9B5D08 (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___ret0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Rigidbody2D::set_velocity_Injected(UnityEngine.Vector2&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_set_velocity_Injected_m060C7F62A3A0280CC02594A15E7DE4486D1BE05E (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___value0, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Rigidbody2D::AddForce(UnityEngine.Vector2,UnityEngine.ForceMode2D)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_AddForce_mDD5CAE0137A42660C2D585B090D7E24496976E1B (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___force0, int32_t ___mode1, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Rigidbody2D::AddForce_Injected(UnityEngine.Vector2&,UnityEngine.ForceMode2D)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_AddForce_Injected_mC5372C179362B25CA579A94DBB11C5719F16452F (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___force0, int32_t ___mode1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Component::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Component__ctor_m4319162A6E6B02301078C1233F6E7F4A3E735486 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Joint2D::get_reactionForce_Injected(UnityEngine.Vector2&)
@@ -2384,24 +2380,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_set_velocity_m9335C5883B218F
 		return;
 	}
 }
-// System.Void UnityEngine.Rigidbody2D::AddForce(UnityEngine.Vector2)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_AddForce_mC635C76F94D56891007700CA0E653EB269E955CB (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___force0, const RuntimeMethod* method) 
-{
-	{
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___force0;
-		Rigidbody2D_AddForce_mDD5CAE0137A42660C2D585B090D7E24496976E1B(__this, L_0, 0, NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.Rigidbody2D::AddForce(UnityEngine.Vector2,UnityEngine.ForceMode2D)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_AddForce_mDD5CAE0137A42660C2D585B090D7E24496976E1B (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___force0, int32_t ___mode1, const RuntimeMethod* method) 
-{
-	{
-		int32_t L_0 = ___mode1;
-		Rigidbody2D_AddForce_Injected_mC5372C179362B25CA579A94DBB11C5719F16452F(__this, (&___force0), L_0, NULL);
-		return;
-	}
-}
 // System.Void UnityEngine.Rigidbody2D::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D__ctor_mFF16B8ADAAE2FFD5FD4FBE3F412FC9E8FBBDBC88 (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, const RuntimeMethod* method) 
 {
@@ -2436,15 +2414,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_set_velocity_Injected_m060C7
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Rigidbody2D_set_velocity_Injected_m060C7F62A3A0280CC02594A15E7DE4486D1BE05E_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody2D::set_velocity_Injected(UnityEngine.Vector2&)");
 	_il2cpp_icall_func(__this, ___value0);
-}
-// System.Void UnityEngine.Rigidbody2D::AddForce_Injected(UnityEngine.Vector2&,UnityEngine.ForceMode2D)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2D_AddForce_Injected_mC5372C179362B25CA579A94DBB11C5719F16452F (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___force0, int32_t ___mode1, const RuntimeMethod* method) 
-{
-	typedef void (*Rigidbody2D_AddForce_Injected_mC5372C179362B25CA579A94DBB11C5719F16452F_ftn) (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*, int32_t);
-	static Rigidbody2D_AddForce_Injected_mC5372C179362B25CA579A94DBB11C5719F16452F_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Rigidbody2D_AddForce_Injected_mC5372C179362B25CA579A94DBB11C5719F16452F_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody2D::AddForce_Injected(UnityEngine.Vector2&,UnityEngine.ForceMode2D)");
-	_il2cpp_icall_func(__this, ___force0, ___mode1);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
