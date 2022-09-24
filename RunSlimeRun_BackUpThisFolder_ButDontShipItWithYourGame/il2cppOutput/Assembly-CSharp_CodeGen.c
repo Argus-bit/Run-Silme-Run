@@ -112,123 +112,127 @@ extern void VariableJoystick_OnPointerUp_m65296D82A6C2E1BDC2D622B9C922FAE8E45445
 extern void VariableJoystick_HandleInput_mD1BCF9A068737A9C057EE8CEB7E6DEB682CC03AB (void);
 // 0x00000032 System.Void VariableJoystick::.ctor()
 extern void VariableJoystick__ctor_m6C7B41973BE20A94F16DB5DCC9AA805C5D8DF852 (void);
-// 0x00000033 System.Void AudioManager::Awake()
-extern void AudioManager_Awake_m8138BCED4D692C83C95626A1A09AB46EA5205569 (void);
-// 0x00000034 System.Void AudioManager::.ctor()
-extern void AudioManager__ctor_mA793A9DF6B975D03690B7C953972EFE41AE4D5E6 (void);
-// 0x00000035 System.Void GameEvent::OnTriggerEnter2D(UnityEngine.Collider2D)
-extern void GameEvent_OnTriggerEnter2D_m6F9556237A92419291BD873251445342B37FEE5E (void);
-// 0x00000036 System.Void GameEvent::GameOver()
-extern void GameEvent_GameOver_m5943CFC1635E62778354D19A0E39A819DC43B8DA (void);
-// 0x00000037 System.Void GameEvent::.ctor()
-extern void GameEvent__ctor_mD5B3B7C48CD6A1F4D721DB2BBFEA7C1829657360 (void);
-// 0x00000038 System.Void GameManager::LoadScenes(System.String)
-extern void GameManager_LoadScenes_m46A3405FBD04F0133A07A2D3F3EF950B059CF4D5 (void);
-// 0x00000039 System.Void GameManager::ExitGame()
-extern void GameManager_ExitGame_m9F891C333D9746F17AB10CBB7705806877941C78 (void);
-// 0x0000003A System.Void GameManager::.ctor()
-extern void GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368 (void);
-// 0x0000003B System.Void GameStates::.ctor()
-extern void GameStates__ctor_m0F7F4903371CEDAB1E82127650559C9A9D3B2972 (void);
-// 0x0000003C GameStatesManager GameStatesManager::get_Instance()
-extern void GameStatesManager_get_Instance_m64F5C61FA0D4EE7BFC6153A4D41E87B0AB1B15DD (void);
-// 0x0000003D GameStates GameStatesManager::get_CurrentGameState()
-extern void GameStatesManager_get_CurrentGameState_mDEE2CDD645C9BFCEA5A2FA88B41DDC73ED5604E0 (void);
-// 0x0000003E System.Void GameStatesManager::set_CurrentGameState(GameStates)
-extern void GameStatesManager_set_CurrentGameState_mB5AE7FC4E627BC1E151B7D63408B4FBA822C3DA2 (void);
-// 0x0000003F System.Void GameStatesManager::add_OnGameStateChanged(GameStatesManager/GameStateChangeHandler)
-extern void GameStatesManager_add_OnGameStateChanged_m8B61EDAB70264F1AA287E9959F6D65E3D1F02774 (void);
-// 0x00000040 System.Void GameStatesManager::remove_OnGameStateChanged(GameStatesManager/GameStateChangeHandler)
-extern void GameStatesManager_remove_OnGameStateChanged_mA0A3060326692F86A41F59C47AEE20783B746866 (void);
-// 0x00000041 System.Void GameStatesManager::.ctor()
-extern void GameStatesManager__ctor_m3642F52EFEF3349B6840BB18A93832A6B1D6704B (void);
-// 0x00000042 System.Void GameStatesManager::SetState(GameStates)
-extern void GameStatesManager_SetState_m9709C20DA1A52C6F4B767AB61D3A646A848A748E (void);
-// 0x00000043 System.Void GameStatesManager/GameStateChangeHandler::.ctor(System.Object,System.IntPtr)
-extern void GameStateChangeHandler__ctor_m127DB388BC9800B133BF9CD0314B5F10E13B0879 (void);
-// 0x00000044 System.Void GameStatesManager/GameStateChangeHandler::Invoke(GameStates)
-extern void GameStateChangeHandler_Invoke_m02A1A852DD595F6041FFC4C7404C077D4C12CF13 (void);
-// 0x00000045 System.IAsyncResult GameStatesManager/GameStateChangeHandler::BeginInvoke(GameStates,System.AsyncCallback,System.Object)
-extern void GameStateChangeHandler_BeginInvoke_m6904139E662D3802FD883062352886FB47FCA196 (void);
-// 0x00000046 System.Void GameStatesManager/GameStateChangeHandler::EndInvoke(System.IAsyncResult)
-extern void GameStateChangeHandler_EndInvoke_mBFFF947AE5268B9AF083A8A599C5603BB39879BD (void);
-// 0x00000047 System.Void JoyStick::Start()
+// 0x00000033 System.Void JoyStick::Start()
 extern void JoyStick_Start_mEE1D2546FAE380545E50E1C20813B3F76794D11C (void);
-// 0x00000048 System.Void JoyStick::Update()
+// 0x00000034 System.Void JoyStick::Update()
 extern void JoyStick_Update_m22B129FED8C9D26FE03B6949F9DADA5857D171D6 (void);
-// 0x00000049 System.Void JoyStick::.ctor()
+// 0x00000035 System.Void JoyStick::.ctor()
 extern void JoyStick__ctor_mA874494A8AFF8654732E39E807954660F5EF0EA9 (void);
-// 0x0000004A System.Void Parallax::Start()
-extern void Parallax_Start_m6667EC7DA687585F96D395615FA015108E9E057E (void);
-// 0x0000004B System.Void Parallax::Update()
-extern void Parallax_Update_m1C1CE1907CC9AE212646371FAC08BE7FDCB116C5 (void);
-// 0x0000004C System.Void Parallax::.ctor()
-extern void Parallax__ctor_m1977D1694F369305A6582E1F215E0B882C2B0EBB (void);
-// 0x0000004D System.Void PauseController::Update()
-extern void PauseController_Update_mC48C8E00C7C145F44D1198E8E3DF664473379B5B (void);
-// 0x0000004E System.Void PauseController::.ctor()
-extern void PauseController__ctor_m4FEA9F3594D37A43C2CA53CB8D04D6309CE385C8 (void);
-// 0x0000004F System.Void Plataform::Update()
-extern void Plataform_Update_m09AFB611A0D63CB4916A132AAB8C1EE8033BF4ED (void);
-// 0x00000050 System.Void Plataform::FixedUpdate()
-extern void Plataform_FixedUpdate_m4C0F5B61F1DBDCD1B3E8C44ADE64CFED98931F50 (void);
-// 0x00000051 System.Void Plataform::StartPlat()
-extern void Plataform_StartPlat_mC6593C9C68B8A7A63DB3B3A5DD7087EF60B89DC5 (void);
-// 0x00000052 System.Void Plataform::FinishUsage()
-extern void Plataform_FinishUsage_mAE41042B500B321C46FA4CBFEEE8D959A2316F22 (void);
-// 0x00000053 System.Void Plataform::.ctor()
-extern void Plataform__ctor_mDFFB2DE824AF8AC34B7F7B6DE2697918FBFE0C5E (void);
-// 0x00000054 System.Void Plataform_Muv::Update()
-extern void Plataform_Muv_Update_mD14777999C1EF5AAF298380865A79588EC72462B (void);
-// 0x00000055 System.Void Plataform_Muv::.ctor()
-extern void Plataform_Muv__ctor_m6E3FDD35690E2FD12979334D136D98AFC2204B95 (void);
-// 0x00000056 System.Void Player::Start()
-extern void Player_Start_mC31CF4F40DDEA35C5E39E8C43EC37284AE7C453D (void);
-// 0x00000057 System.Void Player::OnDestroy()
-extern void Player_OnDestroy_m130A1BF02C7F0D5620BF35D6D2C198F2F011552C (void);
-// 0x00000058 System.Void Player::FixedUpdate()
-extern void Player_FixedUpdate_mEDDB0539FCD5145298CB87D4592DFFF98503AF9B (void);
-// 0x00000059 System.Void Player::AspectMove()
-extern void Player_AspectMove_m98B7E8AB006F14FC8E40E5DBD8F78D6BAFB33C09 (void);
-// 0x0000005A System.Void Player::Flip()
-extern void Player_Flip_m96CF5AF4264C4667E4962CEF5ECD6FD3AED0BBAA (void);
-// 0x0000005B System.Void Player::.ctor()
-extern void Player__ctor_m0A83E0706592FC871B0CF188B37AFC6649F3D85D (void);
-// 0x0000005C System.Void PoolManager::Awake()
+// 0x00000036 System.Void JoyStickVisible::Update()
+extern void JoyStickVisible_Update_mBE81414E9600A71A8D40639B1778179910CD9C28 (void);
+// 0x00000037 System.Void JoyStickVisible::.ctor()
+extern void JoyStickVisible__ctor_mDB87CAAA2B18474CEA7ED3010FACCC54F890350A (void);
+// 0x00000038 System.Void AudioManager::Awake()
+extern void AudioManager_Awake_m8138BCED4D692C83C95626A1A09AB46EA5205569 (void);
+// 0x00000039 System.Void AudioManager::.ctor()
+extern void AudioManager__ctor_mA793A9DF6B975D03690B7C953972EFE41AE4D5E6 (void);
+// 0x0000003A System.Void GameEvent::OnTriggerEnter2D(UnityEngine.Collider2D)
+extern void GameEvent_OnTriggerEnter2D_m6F9556237A92419291BD873251445342B37FEE5E (void);
+// 0x0000003B System.Void GameEvent::GameOver()
+extern void GameEvent_GameOver_m5943CFC1635E62778354D19A0E39A819DC43B8DA (void);
+// 0x0000003C System.Void GameEvent::.ctor()
+extern void GameEvent__ctor_mD5B3B7C48CD6A1F4D721DB2BBFEA7C1829657360 (void);
+// 0x0000003D System.Void GameManager::LoadScenes(System.String)
+extern void GameManager_LoadScenes_m46A3405FBD04F0133A07A2D3F3EF950B059CF4D5 (void);
+// 0x0000003E System.Void GameManager::ExitGame()
+extern void GameManager_ExitGame_m9F891C333D9746F17AB10CBB7705806877941C78 (void);
+// 0x0000003F System.Void GameManager::.ctor()
+extern void GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368 (void);
+// 0x00000040 System.Void GameStates::.ctor()
+extern void GameStates__ctor_m0F7F4903371CEDAB1E82127650559C9A9D3B2972 (void);
+// 0x00000041 GameStatesManager GameStatesManager::get_Instance()
+extern void GameStatesManager_get_Instance_m64F5C61FA0D4EE7BFC6153A4D41E87B0AB1B15DD (void);
+// 0x00000042 GameStates GameStatesManager::get_CurrentGameState()
+extern void GameStatesManager_get_CurrentGameState_mDEE2CDD645C9BFCEA5A2FA88B41DDC73ED5604E0 (void);
+// 0x00000043 System.Void GameStatesManager::set_CurrentGameState(GameStates)
+extern void GameStatesManager_set_CurrentGameState_mB5AE7FC4E627BC1E151B7D63408B4FBA822C3DA2 (void);
+// 0x00000044 System.Void GameStatesManager::add_OnGameStateChanged(GameStatesManager/GameStateChangeHandler)
+extern void GameStatesManager_add_OnGameStateChanged_m8B61EDAB70264F1AA287E9959F6D65E3D1F02774 (void);
+// 0x00000045 System.Void GameStatesManager::remove_OnGameStateChanged(GameStatesManager/GameStateChangeHandler)
+extern void GameStatesManager_remove_OnGameStateChanged_mA0A3060326692F86A41F59C47AEE20783B746866 (void);
+// 0x00000046 System.Void GameStatesManager::.ctor()
+extern void GameStatesManager__ctor_m3642F52EFEF3349B6840BB18A93832A6B1D6704B (void);
+// 0x00000047 System.Void GameStatesManager::SetState(GameStates)
+extern void GameStatesManager_SetState_m9709C20DA1A52C6F4B767AB61D3A646A848A748E (void);
+// 0x00000048 System.Void GameStatesManager/GameStateChangeHandler::.ctor(System.Object,System.IntPtr)
+extern void GameStateChangeHandler__ctor_m127DB388BC9800B133BF9CD0314B5F10E13B0879 (void);
+// 0x00000049 System.Void GameStatesManager/GameStateChangeHandler::Invoke(GameStates)
+extern void GameStateChangeHandler_Invoke_m02A1A852DD595F6041FFC4C7404C077D4C12CF13 (void);
+// 0x0000004A System.IAsyncResult GameStatesManager/GameStateChangeHandler::BeginInvoke(GameStates,System.AsyncCallback,System.Object)
+extern void GameStateChangeHandler_BeginInvoke_m6904139E662D3802FD883062352886FB47FCA196 (void);
+// 0x0000004B System.Void GameStatesManager/GameStateChangeHandler::EndInvoke(System.IAsyncResult)
+extern void GameStateChangeHandler_EndInvoke_mBFFF947AE5268B9AF083A8A599C5603BB39879BD (void);
+// 0x0000004C System.Void PoolManager::Awake()
 extern void PoolManager_Awake_m24E91438FC07109028C3E58A351E9185F1CA3B4F (void);
-// 0x0000005D System.Void PoolManager::StartPool()
+// 0x0000004D System.Void PoolManager::StartPool()
 extern void PoolManager_StartPool_m17A3D35510FBA906FE99BCD55A2B11FE9E5E4A72 (void);
-// 0x0000005E UnityEngine.GameObject PoolManager::GetPooledObject()
+// 0x0000004E UnityEngine.GameObject PoolManager::GetPooledObject()
 extern void PoolManager_GetPooledObject_mD5DBA4E07C4BE153B9F7B2AA38DC001CF5FAFFC0 (void);
-// 0x0000005F System.Void PoolManager::.ctor()
+// 0x0000004F System.Void PoolManager::.ctor()
 extern void PoolManager__ctor_m9F56D45F7F8730BE0D42F25639C20D63A860CB6B (void);
-// 0x00000060 System.Void Score::Start()
-extern void Score_Start_m9851EAC634456AE4AD4D1163695A64EB3E4AA8FF (void);
-// 0x00000061 System.Void Score::Reset()
-extern void Score_Reset_m238DEFF2A8001125798092530966EAD6E8B447FC (void);
-// 0x00000062 System.Void Score::Update()
-extern void Score_Update_m8F6F1768AC5316A30F5A79813D72B20EC6796E5A (void);
-// 0x00000063 System.Void Score::.ctor()
-extern void Score__ctor_mDEDBA72E1F38C2F7CFF4E6C6556103C5D62C1670 (void);
-// 0x00000064 System.Void Singleton`1::Awake()
-// 0x00000065 System.Void Singleton`1::.ctor()
-// 0x00000066 System.Void SOMyScore::.ctor()
-extern void SOMyScore__ctor_m6A1AFFA34A01A1E95E98D3E29F11DF337BD6ADBF (void);
-// 0x00000067 System.Void Spaw::Update()
-extern void Spaw_Update_m46DE702425C0D02FEAFF50CFD3FAE92FDE1AF709 (void);
-// 0x00000068 System.Void Spaw::SpawObject()
-extern void Spaw_SpawObject_m845D6F4EDB4083D35F17BEEAD0F52BE90B4105B8 (void);
-// 0x00000069 System.Void Spaw::.ctor()
-extern void Spaw__ctor_mAFF62984BEA276CF029706361894EBED26B2F0B0 (void);
-// 0x0000006A System.Void Transition::OnStateEnter(UnityEngine.Animator,UnityEngine.AnimatorStateInfo,System.Int32)
+// 0x00000050 System.Void Transition::OnStateEnter(UnityEngine.Animator,UnityEngine.AnimatorStateInfo,System.Int32)
 extern void Transition_OnStateEnter_m570A357592C9A6BDFD15B4DC4C9E39ADA65B3295 (void);
-// 0x0000006B System.Void Transition::.ctor()
+// 0x00000051 System.Void Transition::.ctor()
 extern void Transition__ctor_m641CBEB2CAC3DD257BAC609DE294488F9BF64768 (void);
-// 0x0000006C System.Void Readme::.ctor()
+// 0x00000052 System.Void Parallax::Start()
+extern void Parallax_Start_m6667EC7DA687585F96D395615FA015108E9E057E (void);
+// 0x00000053 System.Void Parallax::Update()
+extern void Parallax_Update_m1C1CE1907CC9AE212646371FAC08BE7FDCB116C5 (void);
+// 0x00000054 System.Void Parallax::.ctor()
+extern void Parallax__ctor_m1977D1694F369305A6582E1F215E0B882C2B0EBB (void);
+// 0x00000055 System.Void PauseController::Update()
+extern void PauseController_Update_mC48C8E00C7C145F44D1198E8E3DF664473379B5B (void);
+// 0x00000056 System.Void PauseController::.ctor()
+extern void PauseController__ctor_m4FEA9F3594D37A43C2CA53CB8D04D6309CE385C8 (void);
+// 0x00000057 System.Void Plataform::Update()
+extern void Plataform_Update_m09AFB611A0D63CB4916A132AAB8C1EE8033BF4ED (void);
+// 0x00000058 System.Void Plataform::FixedUpdate()
+extern void Plataform_FixedUpdate_m4C0F5B61F1DBDCD1B3E8C44ADE64CFED98931F50 (void);
+// 0x00000059 System.Void Plataform::StartPlat()
+extern void Plataform_StartPlat_mC6593C9C68B8A7A63DB3B3A5DD7087EF60B89DC5 (void);
+// 0x0000005A System.Void Plataform::FinishUsage()
+extern void Plataform_FinishUsage_mAE41042B500B321C46FA4CBFEEE8D959A2316F22 (void);
+// 0x0000005B System.Void Plataform::.ctor()
+extern void Plataform__ctor_mDFFB2DE824AF8AC34B7F7B6DE2697918FBFE0C5E (void);
+// 0x0000005C System.Void Plataform_Muv::Update()
+extern void Plataform_Muv_Update_mD14777999C1EF5AAF298380865A79588EC72462B (void);
+// 0x0000005D System.Void Plataform_Muv::.ctor()
+extern void Plataform_Muv__ctor_m6E3FDD35690E2FD12979334D136D98AFC2204B95 (void);
+// 0x0000005E System.Void Spaw::Update()
+extern void Spaw_Update_m46DE702425C0D02FEAFF50CFD3FAE92FDE1AF709 (void);
+// 0x0000005F System.Void Spaw::SpawObject()
+extern void Spaw_SpawObject_m845D6F4EDB4083D35F17BEEAD0F52BE90B4105B8 (void);
+// 0x00000060 System.Void Spaw::.ctor()
+extern void Spaw__ctor_mAFF62984BEA276CF029706361894EBED26B2F0B0 (void);
+// 0x00000061 System.Void Player::Start()
+extern void Player_Start_mC31CF4F40DDEA35C5E39E8C43EC37284AE7C453D (void);
+// 0x00000062 System.Void Player::OnDestroy()
+extern void Player_OnDestroy_m130A1BF02C7F0D5620BF35D6D2C198F2F011552C (void);
+// 0x00000063 System.Void Player::FixedUpdate()
+extern void Player_FixedUpdate_mEDDB0539FCD5145298CB87D4592DFFF98503AF9B (void);
+// 0x00000064 System.Void Player::AspectMove()
+extern void Player_AspectMove_m98B7E8AB006F14FC8E40E5DBD8F78D6BAFB33C09 (void);
+// 0x00000065 System.Void Player::Flip()
+extern void Player_Flip_m96CF5AF4264C4667E4962CEF5ECD6FD3AED0BBAA (void);
+// 0x00000066 System.Void Player::.ctor()
+extern void Player__ctor_m0A83E0706592FC871B0CF188B37AFC6649F3D85D (void);
+// 0x00000067 System.Void Score::Start()
+extern void Score_Start_m9851EAC634456AE4AD4D1163695A64EB3E4AA8FF (void);
+// 0x00000068 System.Void Score::Reset()
+extern void Score_Reset_m238DEFF2A8001125798092530966EAD6E8B447FC (void);
+// 0x00000069 System.Void Score::Update()
+extern void Score_Update_m8F6F1768AC5316A30F5A79813D72B20EC6796E5A (void);
+// 0x0000006A System.Void Score::.ctor()
+extern void Score__ctor_mDEDBA72E1F38C2F7CFF4E6C6556103C5D62C1670 (void);
+// 0x0000006B System.Void SOMyScore::.ctor()
+extern void SOMyScore__ctor_m6A1AFFA34A01A1E95E98D3E29F11DF337BD6ADBF (void);
+// 0x0000006C System.Void Singleton`1::Awake()
+// 0x0000006D System.Void Singleton`1::.ctor()
+// 0x0000006E System.Void Readme::.ctor()
 extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
-// 0x0000006D System.Void Readme/Section::.ctor()
+// 0x0000006F System.Void Readme/Section::.ctor()
 extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
-static Il2CppMethodPointer s_methodPointers[109] = 
+static Il2CppMethodPointer s_methodPointers[111] = 
 {
 	JoystickPlayerExample_FixedUpdate_m9AEDBA111F95D67A006A5D3821956048224541B7,
 	JoystickPlayerExample__ctor_m702422E0AE29402330CF41FDDBEE76F0506342E2,
@@ -280,6 +284,11 @@ static Il2CppMethodPointer s_methodPointers[109] =
 	VariableJoystick_OnPointerUp_m65296D82A6C2E1BDC2D622B9C922FAE8E4544526,
 	VariableJoystick_HandleInput_mD1BCF9A068737A9C057EE8CEB7E6DEB682CC03AB,
 	VariableJoystick__ctor_m6C7B41973BE20A94F16DB5DCC9AA805C5D8DF852,
+	JoyStick_Start_mEE1D2546FAE380545E50E1C20813B3F76794D11C,
+	JoyStick_Update_m22B129FED8C9D26FE03B6949F9DADA5857D171D6,
+	JoyStick__ctor_mA874494A8AFF8654732E39E807954660F5EF0EA9,
+	JoyStickVisible_Update_mBE81414E9600A71A8D40639B1778179910CD9C28,
+	JoyStickVisible__ctor_mDB87CAAA2B18474CEA7ED3010FACCC54F890350A,
 	AudioManager_Awake_m8138BCED4D692C83C95626A1A09AB46EA5205569,
 	AudioManager__ctor_mA793A9DF6B975D03690B7C953972EFE41AE4D5E6,
 	GameEvent_OnTriggerEnter2D_m6F9556237A92419291BD873251445342B37FEE5E,
@@ -300,9 +309,12 @@ static Il2CppMethodPointer s_methodPointers[109] =
 	GameStateChangeHandler_Invoke_m02A1A852DD595F6041FFC4C7404C077D4C12CF13,
 	GameStateChangeHandler_BeginInvoke_m6904139E662D3802FD883062352886FB47FCA196,
 	GameStateChangeHandler_EndInvoke_mBFFF947AE5268B9AF083A8A599C5603BB39879BD,
-	JoyStick_Start_mEE1D2546FAE380545E50E1C20813B3F76794D11C,
-	JoyStick_Update_m22B129FED8C9D26FE03B6949F9DADA5857D171D6,
-	JoyStick__ctor_mA874494A8AFF8654732E39E807954660F5EF0EA9,
+	PoolManager_Awake_m24E91438FC07109028C3E58A351E9185F1CA3B4F,
+	PoolManager_StartPool_m17A3D35510FBA906FE99BCD55A2B11FE9E5E4A72,
+	PoolManager_GetPooledObject_mD5DBA4E07C4BE153B9F7B2AA38DC001CF5FAFFC0,
+	PoolManager__ctor_m9F56D45F7F8730BE0D42F25639C20D63A860CB6B,
+	Transition_OnStateEnter_m570A357592C9A6BDFD15B4DC4C9E39ADA65B3295,
+	Transition__ctor_m641CBEB2CAC3DD257BAC609DE294488F9BF64768,
 	Parallax_Start_m6667EC7DA687585F96D395615FA015108E9E057E,
 	Parallax_Update_m1C1CE1907CC9AE212646371FAC08BE7FDCB116C5,
 	Parallax__ctor_m1977D1694F369305A6582E1F215E0B882C2B0EBB,
@@ -315,32 +327,26 @@ static Il2CppMethodPointer s_methodPointers[109] =
 	Plataform__ctor_mDFFB2DE824AF8AC34B7F7B6DE2697918FBFE0C5E,
 	Plataform_Muv_Update_mD14777999C1EF5AAF298380865A79588EC72462B,
 	Plataform_Muv__ctor_m6E3FDD35690E2FD12979334D136D98AFC2204B95,
+	Spaw_Update_m46DE702425C0D02FEAFF50CFD3FAE92FDE1AF709,
+	Spaw_SpawObject_m845D6F4EDB4083D35F17BEEAD0F52BE90B4105B8,
+	Spaw__ctor_mAFF62984BEA276CF029706361894EBED26B2F0B0,
 	Player_Start_mC31CF4F40DDEA35C5E39E8C43EC37284AE7C453D,
 	Player_OnDestroy_m130A1BF02C7F0D5620BF35D6D2C198F2F011552C,
 	Player_FixedUpdate_mEDDB0539FCD5145298CB87D4592DFFF98503AF9B,
 	Player_AspectMove_m98B7E8AB006F14FC8E40E5DBD8F78D6BAFB33C09,
 	Player_Flip_m96CF5AF4264C4667E4962CEF5ECD6FD3AED0BBAA,
 	Player__ctor_m0A83E0706592FC871B0CF188B37AFC6649F3D85D,
-	PoolManager_Awake_m24E91438FC07109028C3E58A351E9185F1CA3B4F,
-	PoolManager_StartPool_m17A3D35510FBA906FE99BCD55A2B11FE9E5E4A72,
-	PoolManager_GetPooledObject_mD5DBA4E07C4BE153B9F7B2AA38DC001CF5FAFFC0,
-	PoolManager__ctor_m9F56D45F7F8730BE0D42F25639C20D63A860CB6B,
 	Score_Start_m9851EAC634456AE4AD4D1163695A64EB3E4AA8FF,
 	Score_Reset_m238DEFF2A8001125798092530966EAD6E8B447FC,
 	Score_Update_m8F6F1768AC5316A30F5A79813D72B20EC6796E5A,
 	Score__ctor_mDEDBA72E1F38C2F7CFF4E6C6556103C5D62C1670,
-	NULL,
-	NULL,
 	SOMyScore__ctor_m6A1AFFA34A01A1E95E98D3E29F11DF337BD6ADBF,
-	Spaw_Update_m46DE702425C0D02FEAFF50CFD3FAE92FDE1AF709,
-	Spaw_SpawObject_m845D6F4EDB4083D35F17BEEAD0F52BE90B4105B8,
-	Spaw__ctor_mAFF62984BEA276CF029706361894EBED26B2F0B0,
-	Transition_OnStateEnter_m570A357592C9A6BDFD15B4DC4C9E39ADA65B3295,
-	Transition__ctor_m641CBEB2CAC3DD257BAC609DE294488F9BF64768,
+	NULL,
+	NULL,
 	Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6,
 	Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B,
 };
-static const int32_t s_InvokerIndices[109] = 
+static const int32_t s_InvokerIndices[111] = 
 {
 	4208,
 	4208,
@@ -394,6 +400,11 @@ static const int32_t s_InvokerIndices[109] =
 	4208,
 	4208,
 	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
 	3404,
 	4208,
 	4208,
@@ -414,47 +425,44 @@ static const int32_t s_InvokerIndices[109] =
 	3404,
 	4208,
 	4208,
-	4208,
-	4208,
-	4208,
-	4208,
-	4208,
-	4208,
-	4208,
-	4208,
-	4208,
-	4208,
-	4208,
-	4208,
-	4208,
-	4208,
-	4208,
-	4208,
-	4208,
-	4208,
-	4208,
-	4208,
-	4208,
 	4109,
-	4208,
-	4208,
-	4208,
-	4208,
-	4208,
-	0,
-	0,
-	4208,
-	4208,
-	4208,
 	4208,
 	941,
 	4208,
 	4208,
 	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	0,
+	0,
+	4208,
+	4208,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[1] = 
 {
-	{ 0x0200001A, { 0, 3 } },
+	{ 0x0200001E, { 0, 3 } },
 };
 extern const uint32_t g_rgctx_Singleton_1_tEB10BC7581192E8DC4004CC6A80E88A3E42C3444;
 extern const uint32_t g_rgctx_T_t2337B8A22C295A41D129CA0B4B104663AAC37B94;
@@ -469,7 +477,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	109,
+	111,
 	s_methodPointers,
 	0,
 	NULL,
